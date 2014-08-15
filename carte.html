@@ -26,20 +26,18 @@
 						var chosenDate = ui.value;
 						
 						if (chosenDate == 0){
+							resetAreaBackgroundColor("#a_Borderen");
 							$( "#a_Borderen" ).prop('title', 'Au début de l\'arc, les orques se mettent en marche.');
 	
 						}
 						else if (chosenDate == 1){
+							resetAreaBackgroundColor("#a_Borderen");
 							$( "#a_Borderen" ).prop('title', 'De nouveaux renforts orques arrivent des marches du nord');
-							var data = $('#a_Borderen').mouseout().data('maphilight') || {};
-							// Add green background
-							data.alwaysOn = true;
-							data.fillColor = '00ff00';
-							// Update highlight
-							$('#a_Borderen').data('maphilight', data).trigger('alwaysOn.maphilight');
+							changeAreaBackgroundColor("#a_Borderen", "00ff00");
 						}
 						else if (chosenDate == 2){
-							$( "#a_Borderen" ).prop('title', 'Les combats commencent');
+							resetAreaBackgroundColor("#a_Borderen");
+							$( "#a_Borderen" ).prop('title', 'Les combats commencent');							
 						}
 					}
 			});
@@ -47,6 +45,25 @@
 			var labels = ['99DA, HANUD','99DA, HISHA','99DA, SUTARA','100DA, SHAREEL','100DA, DOSHRAM','100DA, SAHAAD','100DA, SENNACH','100DA, HALAIL','100DA, ZIMRA','100DA, OBARES','100DA, HANUD','100DA, HISHA'];
             $('#slider').labeledslider( 'option', 'tickLabels', labels);
 		});
+
+		// Reset the background color of an area to the default transparency
+		function resetAreaBackgroundColor(area) {
+			var data = $(area).mouseout().data('maphilight') || {};			
+			data.alwaysOn = false;
+			data.fillColor = '000000';
+			// Update highlight
+			$(area).data('maphilight', data).trigger('alwaysOn.maphilight');
+		}
+		
+		// Reset the background color of an area to the default transparency
+		function changeAreaBackgroundColor(area, color) {
+			var data = $(area).mouseout().data('maphilight') || {};			
+			// Change background color
+			data.alwaysOn = true;
+			data.fillColor = color;
+			// Update highlight
+			$(area).data('maphilight', data).trigger('alwaysOn.maphilight');
+		}
 	</script>
 	<style>	
 	   * {
@@ -72,8 +89,12 @@
 		
 		#slider {
 			height: 400px;
-			margin: 10px;			
+			margin: 10px;	
         }
+		
+		.ui-slider-wrapper{
+			top: 20px;
+		}
    </style>
    
 </head>
