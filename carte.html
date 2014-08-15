@@ -8,7 +8,7 @@
 	<script type="text/javascript">
 		$(function() {
 			$('.map').maphilight();
-	});
+		});
 	</script>
 	
 	<link rel="stylesheet" href="jquery-ui.css">
@@ -31,27 +31,24 @@
 						}
 						else if (chosenDate == 1){
 							$( "#a_Borderen" ).prop('title', 'De nouveaux renforts orques arrivent des marches du nord');
+							var data = $('#a_Borderen').mouseout().data('maphilight') || {};
+							// Add green background
+							data.alwaysOn = true;
+							data.fillColor = '00ff00';
+							// Update highlight
+							$('#a_Borderen').data('maphilight', data).trigger('alwaysOn.maphilight');
 						}
 						else if (chosenDate == 2){
 							$( "#a_Borderen" ).prop('title', 'Les combats commencent');
 						}
 					}
 			});
-			var labels = ['99, HANUD','99, HISHA','99, SUTARA','100 DA, SHAREEL','100, DOSHRAM','100, SAHAAD','100, SENNACH','100, HALAIL','100, ZIMRA','100, OBARES','100, HANUD','100, HISHA'];
+			// Add labels
+			var labels = ['99DA, HANUD','99DA, HISHA','99DA, SUTARA','100DA, SHAREEL','100DA, DOSHRAM','100DA, SAHAAD','100DA, SENNACH','100DA, HALAIL','100DA, ZIMRA','100DA, OBARES','100DA, HANUD','100DA, HISHA'];
             $('#slider').labeledslider( 'option', 'tickLabels', labels);
 		});
 	</script>
-	<style>
-		#carte {
-			width: 1500px;
-			float: left;
-		}
-		
-		#slider {
-			height: 400px;
-			margin: 10px;			
-        }
-		
+	<style>	
 	   * {
 		  font-family:   Verdana, Arial, Helvetica, sans-serif;
 		  font-size:     12pt;
@@ -62,11 +59,21 @@
 			width: 1304px;
 	   }
 	   
-	   #main {
+	    #main {
 			margin: auto;
 			width: 100%;
 			height: 100%;
 		}
+		
+		#carte {
+			width: 1500px;
+			float: left;
+		}
+		
+		#slider {
+			height: 400px;
+			margin: 10px;			
+        }
    </style>
    
 </head>
@@ -83,25 +90,25 @@
 				<area id="v_Borderen" href="#" title="Borderen" shape="circle" coords="884, 391, 8" />
 				<!-- Villes d'Erethor -->
 				<area id="v_PointeDargent" href="#" title="Pointe d'argent" shape="circle" coords="531, 179, 11" />
-				<area href="#" title="Bandilrin" shape="circle" coords="568, 90, 6" />
+				<area id="v_Bandilrin" href="#" title="Bandilrin" shape="circle" coords="568, 90, 6" />
 				<!-- Villes des Kaladrunes -->
-				<area href="#" title="Calador" shape="circle" coords="1048, 191, 11" />
-				<area href="#" title="Bodrun" shape="circle" coords="947, 581, 12" />
-				<area href="#" title="Caradul" shape="circle" coords="559, 434, 9" />
-				<area href="#" title="Kaelorin" shape="circle" coords="532, 308, 6" />
+				<area id="v_Calador" href="#" title="Calador" shape="circle" coords="1048, 191, 11" />
+				<area id="v_Bodrun" href="#" title="Bodrun" shape="circle" coords="947, 581, 12" />
+				<area id="v_Caradul" href="#" title="Caradul" shape="circle" coords="559, 434, 9" />
+				<area id="v_Kaelorin" href="#" title="Kaelorin" shape="circle" coords="532, 308, 6" />
 				<!-- Districts de l'Ombre d'Erenie-->
 				<area id="a_Basroc" href="#" title="Basroc" shape="poly" coords="916, 371, 925, 356, 945, 349, 967, 331, 991, 329, 1015, 315, 1020, 320, 1008, 340, 995, 356, 992, 383, 953, 405, 939, 403, 924, 383" data-maphilight='{"strokeColor":"0000ff","strokeWidth":1,"fillColor":"00ff00","fillOpacity":0.2}'/>
-				<area href="#" title="Collines orientales" shape="poly" coords="897, 518, 883, 530, 845, 518, 815, 527, 829, 514, 837, 507, 840, 475, 822, 474, 822, 461, 833, 447, 859, 435, 875, 440, 897, 431, 914, 427, 939, 402, 953, 405, 992, 383, 995, 396, 985, 421, 987, 458, 983, 474, 963, 490, 955, 511, 939, 515, 928, 504, 904, 499" />
+				<area id="a_CollinesOrientales" href="#" title="Collines orientales" shape="poly" coords="897, 518, 883, 530, 845, 518, 815, 527, 829, 514, 837, 507, 840, 475, 822, 474, 822, 461, 833, 447, 859, 435, 875, 440, 897, 431, 914, 427, 939, 402, 953, 405, 992, 383, 995, 396, 985, 421, 987, 458, 983, 474, 963, 490, 955, 511, 939, 515, 928, 504, 904, 499" />
 				<area id="a_Borderen" href="#" title="Au début de l'arc, les orques se mettent en marche." shape="poly" coords="840, 370, 870, 385, 883, 382, 893, 369, 919, 373, 925, 384, 939, 402, 915, 428, 898, 431, 876, 440, 860, 435, 823, 415, 841, 395" />
-				<area href="#" title="Promontoire de Baden" shape="poly" coords="752, 414, 765, 387, 751, 373, 788, 355, 841, 370, 841, 395, 824, 415, 762, 419" />
-				<area href="#" title="Terres de l'Ouest" shape="poly" coords="718, 504, 726, 475, 703, 456, 709, 435, 752, 415, 762, 420, 825, 415, 861, 435, 833, 448, 793, 467, 789, 478, 798, 488, 774, 491, 750, 503" />
-				<area href="#" title="Alvedara" shape="poly" coords="826, 623, 897, 646, 916, 595, 899, 517, 883, 530, 846, 518, 815, 528" />
-				<area href="#" title="C&ocirc;te sud-est" shape="poly" coords="829, 643, 827, 667, 843, 672, 830, 748, 929, 682, 940, 667, 941, 587, 916, 596, 898, 646, 827, 623" />
-				<area href="#" title="Zorgetch" shape="poly" coords="750, 639, 741, 610, 767, 570, 763, 540, 801, 540, 816, 529, 829, 644, 811, 643, 805, 632, 796, 624, 780, 633, 770, 626" />
-				<area href="#" title="Al-Kadil" shape="poly" coords="739, 535, 720, 525, 717, 503, 751, 503, 776, 491, 799, 489, 806, 502, 821, 504, 829, 514, 817, 529, 802, 541, 763, 540, 749, 541" />
-				<area href="#" title="Sharuun" shape="poly" coords="717, 682, 726, 682, 730, 662, 737, 653, 751, 640, 742, 611, 719, 611, 716, 616, 693, 637, 706, 649" />
-				<area href="#" title="Cambrial" shape="poly" coords="740, 537, 750, 541, 764, 540, 767, 571, 743, 612, 720, 612, 717, 616, 675, 610, 682, 600, 696, 588, 705, 559" />
-				<area href="#" title="C&ocirc;te sud-ouest" shape="poly" coords="706, 729, 699, 707, 687, 694, 661, 656, 676, 610, 715, 616, 694, 637, 707, 650, 718, 683, 707, 707, 715, 724, 713, 729" />
+				<area id="a_PromontoireBaden" href="#" title="Promontoire de Baden" shape="poly" coords="752, 414, 765, 387, 751, 373, 788, 355, 841, 370, 841, 395, 824, 415, 762, 419" />
+				<area id="a_TerresOuest" href="#" title="Terres de l'Ouest" shape="poly" coords="718, 504, 726, 475, 703, 456, 709, 435, 752, 415, 762, 420, 825, 415, 861, 435, 833, 448, 793, 467, 789, 478, 798, 488, 774, 491, 750, 503" />
+				<area id="a_Alvedara" href="#" title="Alvedara" shape="poly" coords="826, 623, 897, 646, 916, 595, 899, 517, 883, 530, 846, 518, 815, 528" />
+				<area id="a_CoteSudEst" href="#" title="C&ocirc;te sud-est" shape="poly" coords="829, 643, 827, 667, 843, 672, 830, 748, 929, 682, 940, 667, 941, 587, 916, 596, 898, 646, 827, 623" />
+				<area id="a_Zorgetch" href="#" title="Zorgetch" shape="poly" coords="750, 639, 741, 610, 767, 570, 763, 540, 801, 540, 816, 529, 829, 644, 811, 643, 805, 632, 796, 624, 780, 633, 770, 626" />
+				<area id="a_AlKadil" href="#" title="Al-Kadil" shape="poly" coords="739, 535, 720, 525, 717, 503, 751, 503, 776, 491, 799, 489, 806, 502, 821, 504, 829, 514, 817, 529, 802, 541, 763, 540, 749, 541" />
+				<area id="a_Sharuun" href="#" title="Sharuun" shape="poly" coords="717, 682, 726, 682, 730, 662, 737, 653, 751, 640, 742, 611, 719, 611, 716, 616, 693, 637, 706, 649" />
+				<area id="a_Cambrial" href="#" title="Cambrial" shape="poly" coords="740, 537, 750, 541, 764, 540, 767, 571, 743, 612, 720, 612, 717, 616, 675, 610, 682, 600, 696, 588, 705, 559" />
+				<area id="a_CoteSudOuest" href="#" title="C&ocirc;te sud-ouest" shape="poly" coords="706, 729, 699, 707, 687, 694, 661, 656, 676, 610, 715, 616, 694, 637, 707, 650, 718, 683, 707, 707, 715, 724, 713, 729" />
 			</map>
 		</div>
 		<div id="slider" ></div>
