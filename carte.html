@@ -8,10 +8,13 @@
 	<script type="text/javascript">
 		$(function() {
 			$('.map').maphilight();
-	});</script>
+	});
+	</script>
 	
 	<link rel="stylesheet" href="jquery-ui.css">
+	<link rel="stylesheet" href="ext-jquery-ui.css">
 	<script type="text/javascript" src="jquery-ui.min.js"></script> 
+	<script type="text/javascript" src="ext-jquery-ui.min.js"></script> 
 	<script type="text/javascript">
 		$(function() {
 			$( "#slider" ).slider({		
@@ -22,16 +25,62 @@
 					$( "#currentDate" ).val( ui.value );
 				}
 			});
-	});</script>
+	});
+	</script>
+	<script>
+	   $(function() {
+			$('#slider2').labeledslider({ 
+					max: 11, 
+					step: 1,				
+					orientation: 'vertical', 
+					tickInterval: 1
+			});
+			var labels = ['99, HANUD','99, HISHA','99, SUTARA','100 DA, SHAREEL','100, DOSHRAM','100, SAHAAD','100, SENNACH','100, HALAIL','100, ZIMRA','100, OBARES','100, HANUD','100, HISHA'];
+            //labels = labels.concat(labels).concat(labels);
+
+           $('#slider2').labeledslider( 'option', 'tickLabels', labels);
+		});
+	</script>
 	<style>
         #slider {
 			width: 400px;
 			margin: 10px;
         }
-     </style>
+
+		#slider2 {
+			height: 400px;
+			margin: 10px;
+        }
+		
+	   * {
+		  font-family:   Verdana, Arial, Helvetica, sans-serif;
+		  font-size:     12pt;
+	   }
+
+	   .wrapper {
+		  position: relative;
+		  margin: auto;
+		  width: 400px;
+		  height: 400px;
+		  margin-top: 50px;
+	   }
+
+	   .controls {
+		  position: absolute;
+		  bottom: 30px;
+		  right: 0;
+		  font-size: 8pt;
+		  text-align: right;
+	   }
+	   .controls .label { font-size: .9em; }
+	   .ui-spinner { width: 4em; }
+
+   </style>
 </head>
 <body>
 <div id="slider"></div>
+<br><br>
+<div id="slider2"></div>
 <br><br>
 <label for="currentDate">Date:</label> 
 <input type="text" id="currentDate">
