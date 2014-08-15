@@ -4,19 +4,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Midnight</title>
 	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="jquery.maphilight.min.js"></script>
-	<script type="text/javascript">
-		$(function() {
-			$('.map').maphilight();
-		});
-	</script>
-	
-	<link rel="stylesheet" href="jquery-ui.css">
-	<link rel="stylesheet" href="ext-jquery-ui.css">
+	<script type="text/javascript" src="jquery.maphilight.min.js"></script>	
 	<script type="text/javascript" src="jquery-ui.min.js"></script> 
 	<script type="text/javascript" src="ext-jquery-ui.min.js"></script> 
 	<script>
 	   $(function() {
+			// Highlights the map
+			$('.map').maphilight();
+			
+			// Initialize slider
 			$('#slider').labeledslider({ 
 					max: 11, 
 					step: 1,				
@@ -28,7 +24,7 @@
 						if (chosenDate == 0){
 							resetAreaBackgroundColor("#a_Borderen");
 							$( "#a_Borderen" ).prop('title', 'Au début de l\'arc, les orques se mettent en marche.');
-	
+							changeAreaBackgroundColor("#a_Borderen", "00ff00");
 						}
 						else if (chosenDate == 1){
 							resetAreaBackgroundColor("#a_Borderen");
@@ -37,10 +33,15 @@
 						}
 						else if (chosenDate == 2){
 							resetAreaBackgroundColor("#a_Borderen");
-							$( "#a_Borderen" ).prop('title', 'Les combats commencent');							
+							$( "#a_Borderen" ).prop('title', 'Les combats commencent');		
+							changeAreaBackgroundColor("#a_Borderen", "00ff00");							
+						}
+						else if (chosenDate == 3){
+							resetAreaBackgroundColor("#a_Borderen");			
 						}
 					}
 			});
+			
 			// Add labels
 			var labels = ['99DA, HANUD','99DA, HISHA','99DA, SUTARA','100DA, SHAREEL','100DA, DOSHRAM','100DA, SAHAAD','100DA, SENNACH','100DA, HALAIL','100DA, ZIMRA','100DA, OBARES','100DA, HANUD','100DA, HISHA'];
             $('#slider').labeledslider( 'option', 'tickLabels', labels);
@@ -65,37 +66,40 @@
 			$(area).data('maphilight', data).trigger('alwaysOn.maphilight');
 		}
 	</script>
-	<style>	
-	   * {
-		  font-family:   Verdana, Arial, Helvetica, sans-serif;
-		  font-size:     12pt;
-		  font-weight:	 bold;
-	   }
+		
+		<link rel="stylesheet" href="jquery-ui.css">
+		<link rel="stylesheet" href="ext-jquery-ui.css">
+		<style>	
+		   * {
+			  font-family:   Verdana, Arial, Helvetica, sans-serif;
+			  font-size:     12pt;
+			  font-weight:	 bold;
+		   }
 
-	   .map {
-			width: 1304px;
-	   }
-	   
-	    #main {
-			margin: auto;
-			width: 100%;
-			height: 100%;
-		}
-		
-		#carte {
-			width: 1500px;
-			float: left;
-		}
-		
-		#slider {
-			height: 400px;
-			margin: 10px;	
-        }
-		
-		.ui-slider-wrapper{
-			top: 20px;
-		}
-   </style>
+		   .map {
+				width: 1304px;
+		   }
+		   
+			#main {
+				margin: auto;
+				width: 100%;
+				height: 100%;
+			}
+			
+			#carte {
+				width: 1500px;
+				float: left;
+			}
+			
+			#slider {
+				height: 400px;
+				margin: 10px;	
+			}
+			
+			.ui-slider-wrapper{
+				top: 20px;
+			}
+	   </style>
    
 </head>
 <body>
