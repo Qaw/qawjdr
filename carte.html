@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Midnight</title>
+<title>Midnight - Map of Eredane's war</title>
 	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="jquery.maphilight.min.js"></script>	
 	<script type="text/javascript" src="jquery-ui.min.js"></script> 
@@ -12,16 +12,19 @@
 			// Highlights the map
 			$('.map').maphilight();
 			
-			// Initialize titles
-			var oBorderen = new Object();
-			oBorderen.id = "#a_Borderen";
-			oBorderen.titles = ["Au début de l\'arc, les orques se mettent en marche.","De nouveaux renforts orques arrivent des marches du nord","Les combats commencent","","Contre-attaque des orcs","","","","","","",""];
+			// Time line is : 
+			//	99DA HANUD, 99DA HISHA, 99DA SUTARA, 100DA SHAREEL, 100DA DOSHRAM, 100DA SAHAAD, 100DA SENNACH, 100DA HALAIL, 100DA ZIMRA, 100DA OBARES, 100DA HANUD, 100DA HISHA
 			
-			var oPromontoireBaden = new Object();
-			oPromontoireBaden.id = "#a_PromontoireBaden";
-			oPromontoireBaden.titles = ["","La ville ferme ses portes","","La ville est détruite","","","","","","","",""];
+			// Initialize objects
+			var oBorderenArea = new Object();
+			oBorderenArea.id = "#a_Borderen";
+			oBorderenArea.titles = ["Au début de l\'arc, les orques se mettent en marche.","De nouveaux renforts orques arrivent des marches du nord","Les combats commencent","","Contre-attaque des orcs","","","","","","",""];
 			
-			var areas_list = ["a_Borderen","a_PromontoireBaden"];
+			var oPromontoireBadenArea = new Object();
+			oPromontoireBadenArea.id = "#a_PromontoireBaden";
+			oPromontoireBadenArea.titles = ["","La ville ferme ses portes","","La ville est détruite","","","","","","","",""];
+			
+			var objectsList = [oBorderenArea,oPromontoireBadenArea];
 			
 			// Initialize slider
 			$('#slider').labeledslider({ 
@@ -32,25 +35,13 @@
 					slide: function(event, ui) {
 						var chosenDate = ui.value;
 						
-						// Reset area background
-						resetAreaBackgroundColor(oBorderen.id);
-						
-						// Change title and corresponding area
-						
-						// Borderen area
-						/*$( "#a_Borderen" ).prop('title', titles_a_Borderen[chosenDate]);
-						if (titles_a_Borderen[chosenDate]!=""){
-							changeAreaBackgroundColor("#a_Borderen", "00ff00");
-						}*/
-						$( oBorderen.id ).prop('title', oBorderen.titles[chosenDate]);
-						if (oBorderen.titles[chosenDate].length > 0){
-							changeAreaBackgroundColor(oBorderen.id, "00ff00");
-						}
-						
-						resetAreaBackgroundColor(oPromontoireBaden.id);
-						$( oPromontoireBaden.id ).prop('title', oPromontoireBaden.titles[chosenDate]);
-						if (oPromontoireBaden.titles[chosenDate].length > 0){
-							changeAreaBackgroundColor(oPromontoireBaden.id, "00ff00");
+						// For each object : reset the background colour, change the title if necessary and change the background colour in green if the title has been changed
+						for ( var i = 0; i < objectsList.length; i = i + 1 ) {			
+							resetAreaBackgroundColor(objectsList[i].id);						
+							$(objectsList[i].id).prop('title', objectsList[i].titles[chosenDate]);
+							if (objectsList[i].titles[chosenDate].length > 0){
+								changeAreaBackgroundColor(objectsList[i].id, "00ff00");
+							}
 						}
 					}
 			});
@@ -60,7 +51,7 @@
             $('#slider').labeledslider( 'option', 'tickLabels', labels);
 		});
 
-		// Reset the background color of an area to the default transparency
+		// Reset the background colour of an area to the default transparency
 		function resetAreaBackgroundColor(area) {
 			var data = $(area).mouseout().data('maphilight') || {};			
 			data.alwaysOn = false;
