@@ -12,6 +12,17 @@
 			// Highlights the map
 			$('.map').maphilight();
 			
+			// Initialize titles
+			var oBorderen = new Object();
+			oBorderen.id = "#a_Borderen";
+			oBorderen.titles = ["Au début de l\'arc, les orques se mettent en marche.","De nouveaux renforts orques arrivent des marches du nord","Les combats commencent","","Contre-attaque des orcs","","","","","","",""];
+			
+			var oPromontoireBaden = new Object();
+			oPromontoireBaden.id = "#a_PromontoireBaden";
+			oPromontoireBaden.titles = ["","La ville ferme ses portes","","La ville est détruite","","","","","","","",""];
+			
+			var areas_list = ["a_Borderen","a_PromontoireBaden"];
+			
 			// Initialize slider
 			$('#slider').labeledslider({ 
 					max: 11, 
@@ -21,23 +32,25 @@
 					slide: function(event, ui) {
 						var chosenDate = ui.value;
 						
-						if (chosenDate == 0){
-							resetAreaBackgroundColor("#a_Borderen");
-							$( "#a_Borderen" ).prop('title', 'Au début de l\'arc, les orques se mettent en marche.');
+						// Reset area background
+						resetAreaBackgroundColor(oBorderen.id);
+						
+						// Change title and corresponding area
+						
+						// Borderen area
+						/*$( "#a_Borderen" ).prop('title', titles_a_Borderen[chosenDate]);
+						if (titles_a_Borderen[chosenDate]!=""){
 							changeAreaBackgroundColor("#a_Borderen", "00ff00");
+						}*/
+						$( oBorderen.id ).prop('title', oBorderen.titles[chosenDate]);
+						if (oBorderen.titles[chosenDate].length > 0){
+							changeAreaBackgroundColor(oBorderen.id, "00ff00");
 						}
-						else if (chosenDate == 1){
-							resetAreaBackgroundColor("#a_Borderen");
-							$( "#a_Borderen" ).prop('title', 'De nouveaux renforts orques arrivent des marches du nord');
-							changeAreaBackgroundColor("#a_Borderen", "00ff00");
-						}
-						else if (chosenDate == 2){
-							resetAreaBackgroundColor("#a_Borderen");
-							$( "#a_Borderen" ).prop('title', 'Les combats commencent');		
-							changeAreaBackgroundColor("#a_Borderen", "00ff00");							
-						}
-						else if (chosenDate == 3){
-							resetAreaBackgroundColor("#a_Borderen");			
+						
+						resetAreaBackgroundColor(oPromontoireBaden.id);
+						$( oPromontoireBaden.id ).prop('title', oPromontoireBaden.titles[chosenDate]);
+						if (oPromontoireBaden.titles[chosenDate].length > 0){
+							changeAreaBackgroundColor(oPromontoireBaden.id, "00ff00");
 						}
 					}
 			});
