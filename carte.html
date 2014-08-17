@@ -18,13 +18,17 @@
 			// Initialize objects
 			var oBorderenArea = new Object();
 			oBorderenArea.id = "#a_Borderen";
-			oBorderenArea.titles = ["Au début de l\'arc, les orques se mettent en marche.","De nouveaux renforts orques arrivent des marches du nord","Les combats commencent","","Contre-attaque des orcs","","","","","","",""];
+			oBorderenArea.titles = ["Au début de l'arc, les orques se mettent en marche.","De nouveaux renforts orques arrivent des marches du nord","Les combats commencent","","Contre-attaque des orcs","","","","","","",""];
 			
 			var oPromontoireBadenArea = new Object();
 			oPromontoireBadenArea.id = "#a_PromontoireBaden";
 			oPromontoireBadenArea.titles = ["","La ville ferme ses portes","","La ville est détruite","","","","","","","",""];
 			
-			var objectsList = [oBorderenArea,oPromontoireBadenArea];
+			var oPointeDargentCity = new Object();
+			oPointeDargentCity.id = "#v_PointeDargent";
+			oPointeDargentCity.titles = ["","","","Pointe d'argent est attaquée","Après 40 jours de siège, Pointe d'argent est détruite et les orques et goblinoïdes continuent vers le sud pour détruire les dernières forteresses erunsils.","","","","","","",""];
+			
+			var objectsList = [oBorderenArea,oPromontoireBadenArea,oPointeDargentCity];
 			
 			// Initialize slider
 			$('#slider').labeledslider({ 
