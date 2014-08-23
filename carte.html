@@ -3,10 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Midnight - Map of Eredane's war</title>
-	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="jquery.maphilight.min.js"></script>	
-	<script type="text/javascript" src="jquery-ui.min.js"></script> 
-	<script type="text/javascript" src="ext-jquery-ui.min.js"></script> 
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.maphilight.min.js"></script>	
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+	<script type="text/javascript" src="js/ext-jquery-ui.min.js"></script> 
 	<script>
 	   $(function() {
 			// Highlights the map
@@ -80,45 +80,45 @@
 		}
 	</script>
 		
-		<link rel="stylesheet" href="jquery-ui.css">
-		<link rel="stylesheet" href="ext-jquery-ui.css">
-		<style>	
-		   * {
-			  font-family:   Verdana, Arial, Helvetica, sans-serif;
-			  font-size:     12pt;
-			  font-weight:	 bold;
-		   }
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/ext-jquery-ui.css">
+	<style>	
+	   * {
+		  font-family:   Verdana, Arial, Helvetica, sans-serif;
+		  font-size:     12pt;
+		  font-weight:	 bold;
+	   }
 
-		   .map {
-				width: 1304px;
-		   }
-		   
-			#main {
-				margin: auto;
-				width: 100%;
-				height: 100%;
-			}
-			
-			#carte {
-				width: 1500px;
-				float: left;
-			}
-			
-			#slider {
-				height: 400px;
-				margin: 10px;	
-			}
-			
-			.ui-slider-wrapper{
-				top: 20px;
-			}
-	   </style>
+	   .map {
+			width: 1304px;
+	   }
+	   
+		#main {
+			margin: auto;
+			width: 100%;
+			height: 100%;
+		}
+		
+		#carte {
+			width: 1500px;
+			float: left;
+		}
+		
+		#slider {
+			height: 400px;
+			margin: 10px;	
+		}
+		
+		.ui-slider-wrapper{
+			top: 20px;
+		}
+   </style>
    
 </head>
 <body>
 	<div id="main">
 		<div id="carte" >
-			<img class="map" src="Midnight-DistrictsOmbre.jpg" alt="" usemap="#eredane" />
+			<img class="map" src="images/Midnight-DistrictsOmbre.jpg" alt="" usemap="#eredane" />
 			<map name="eredane">
 				<!-- Villes d'Erenie -->
 				<area id="v_Hallisport" href="#" title="Hallisport" shape="circle" coords="880, 712, 9" />
@@ -135,7 +135,8 @@
 				<area id="v_Caradul" href="#" title="Caradul" shape="circle" coords="559, 434, 9" />
 				<area id="v_Kaelorin" href="#" title="Kaelorin" shape="circle" coords="532, 308, 6" />
 				<!-- Districts de l'Ombre d'Erenie-->
-				<area id="a_Basroc" href="#" title="Basroc" shape="poly" coords="916, 371, 925, 356, 945, 349, 967, 331, 991, 329, 1015, 315, 1020, 320, 1008, 340, 995, 356, 992, 383, 953, 405, 939, 403, 924, 383" data-maphilight='{"strokeColor":"0000ff","strokeWidth":1,"fillColor":"00ff00","fillOpacity":0.2}'/>
+				<!-- Exemple de surbrillance verte <area id="a_Basroc" href="#" title="Basroc" shape="poly" coords="916, 371, 925, 356, 945, 349, 967, 331, 991, 329, 1015, 315, 1020, 320, 1008, 340, 995, 356, 992, 383, 953, 405, 939, 403, 924, 383" data-maphilight='{"strokeColor":"0000ff","strokeWidth":1,"fillColor":"00ff00","fillOpacity":0.2}'/> -->
+				<area id="a_Basroc" href="#" title="Basroc" shape="poly" coords="916, 371, 925, 356, 945, 349, 967, 331, 991, 329, 1015, 315, 1020, 320, 1008, 340, 995, 356, 992, 383, 953, 405, 939, 403, 924, 383" />
 				<area id="a_CollinesOrientales" href="#" title="Collines orientales" shape="poly" coords="897, 518, 883, 530, 845, 518, 815, 527, 829, 514, 837, 507, 840, 475, 822, 474, 822, 461, 833, 447, 859, 435, 875, 440, 897, 431, 914, 427, 939, 402, 953, 405, 992, 383, 995, 396, 985, 421, 987, 458, 983, 474, 963, 490, 955, 511, 939, 515, 928, 504, 904, 499" />
 				<area id="a_Borderen" href="#" title="Au début de l'arc, les orques se mettent en marche." shape="poly" coords="840, 370, 870, 385, 883, 382, 893, 369, 919, 373, 925, 384, 939, 402, 915, 428, 898, 431, 876, 440, 860, 435, 823, 415, 841, 395" />
 				<area id="a_PromontoireBaden" href="#" title="Promontoire de Baden" shape="poly" coords="752, 414, 765, 387, 751, 373, 788, 355, 841, 370, 841, 395, 824, 415, 762, 419" />
