@@ -22,7 +22,7 @@ data_action_fr = [
         bullets: [
             "Vous pouvez utiliser l'action <i>Attaquer</i> pour faire une attaque au corps à corps spéciale, une lutte.",
             "Si vous pouvez faire plusieurs attaques avec l'action Attaquer, cette action remplace l'une d'entre elles.",
-            "TLa cible de votre lutte ne doit pas être plus d'une taille supérieure à la vôtre, et elle doit être à votre portée.",
+            "La cible de votre lutte ne doit pas être plus d'une taille supérieure à la vôtre, et elle doit être à votre portée.",
             "En utilisant au moins une main de libre, vous essayez d'attraper la cible en réalisant un jet de lutte, qui est en fait un jet de Force (Athlétisme) en opposition à un jet de Force (Athlétisme) ou de Dextérité (Acrobaties) de l'ennemi (au choix de celui-ci).",
             "Si vous réussissez, la cible est agrippée. Vous pouvez relâcher votre cible quand vous le voulez (cela ne nécessite pas d'action)."
         ]
@@ -91,7 +91,7 @@ data_action_fr = [
     {
         title: "S'échapper d'une lutte",
         icon: "manacles",
-        subtitle: "S'échapper d'une lutte",
+        subtitle: "",
         description: "Une créature agrippée peut utiliser son action pour s'échapper.",
         reference: "PHB, pg. 195.",
         bullets: [
@@ -113,8 +113,8 @@ data_action_fr = [
     {
         title: "Utiliser un objet [Use an object]",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
+        subtitle: "",
+        description: "Interagir avec un second objet ou utiliser les capacités spéciales d'un objet",
         reference: "PHB, pg. 193.",
         bullets: [
             "Vous pouvez interagir avec un objet gratuitement pendant votre tour (comme dégainer une arme ou ouvrir une porte). Si vous voulez interagir avec un deuxième objet, utilisez cette action."
@@ -123,7 +123,7 @@ data_action_fr = [
     {
         title: "Utiliser un bouclier",
         icon: "round-shield",
-        subtitle: "Mettre ou oter un bouclier",
+        subtitle: "Mettre ou ôter un bouclier",
         description: "Mettre ou ôter un bouclier",
         reference: "PHB, pgs. 144-146.",
         bullets: [
