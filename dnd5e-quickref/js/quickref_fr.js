@@ -62,10 +62,10 @@ function init() {
     fill_section(data_bonusaction_fr, "basic-bonus-actions", "Bonus action");
     fill_section(data_reaction_fr, "basic-reactions", "Reaction");
     fill_section(data_condition_fr, "basic-conditions", "Condition");
-    fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
-    fill_section(data_environment_light, "environment-light", "Environment");
-    fill_section(data_environment_vision, "environment-vision", "Environment");
-    fill_section(data_environment_cover, "environment-cover", "Environment");
+    fill_section(data_environment_obscurance_fr, "environment-obscurance", "Environment");
+    fill_section(data_environment_light_fr, "environment-light", "Environment");
+    fill_section(data_environment_vision_fr, "environment-vision", "Environment");
+    fill_section(data_environment_cover_fr, "environment-cover", "Environment");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
