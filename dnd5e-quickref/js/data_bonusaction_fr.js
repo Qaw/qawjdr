@@ -32,4 +32,4 @@ data_bonusaction_fr = [
         bullets: [
         ]
     }
-]
+];

@@ -59,8 +59,8 @@ data_movement_fr = [
     {
         title: "Se relever",
         icon: "strong",
-        subtitle: "Coût: la moitiée de votre vitesse",
-        description: "Coût: la moitiée de votre vitesse",
+        subtitle: "Coût: la moitié de votre vitesse",
+        description: "Coût: la moitié de votre vitesse",
         reference: "PHB, pg. 190-191.",
         bullets: [
             "Vous ne pouvez pas vous relever si vous n'avez pas assez de mouvement restant ou si votre vitesse est de 0."
@@ -83,13 +83,32 @@ data_movement_fr = [
         title: "Saut en longueur",
         icon: "wingfoot",
         subtitle: "Coût: 1m par 1m",
-        description: "Coût du mouvement: 1,5m par 1,5m",
+        description: "Coût: chaque mètre franchi lors du saut coûte un mètre de déplacement",
         reference: "PHB, pg. 182.",
         bullets: [
             "Vous couvrez un nombre de mètres égal à votre valeur de <b>Force</b> divisée par 3 si vous prenez un élan d'au moins 3 mètres.",
             "Lorsque vous faites un saut en longueur sans élan, vous pouvez seulement franchir la moitié de cette distance.",
             "vous pouvez devoir réussir un jet de Force (Athlétisme) DD 10 pour sauter au-dessus d'un petit obstacle (pas plus haut que le quart de votre distance de saut), comme une haie ou un petit mur.Dans le cas contraire, vous le touchez.",
             "Lorsque vous atterrissez sur un terrain difficile, vous devez réussir un jet de Dextérité (Acrobaties) DD 10 pour retomber sur vos pieds. Dans le cas contraire, vous tombez à terre."
+        ]
+    },
+     {
+        title: "Terrain difficile",
+        icon: "stone-pile",
+        subtitle: "Coût: 1m coûte 2m",
+        reference: "PHB, pg. 182.",
+        description: "Vous vous déplacez à la moitié de votre vitesse en terrain difficile (se déplacer d'un mètre en terrain difficile coûte 2 mètres de déplacement).",
+        bullets: [
+        ]
+    },
+    {
+        title: "Bouger une créature agrippée",
+        icon: "grab",
+        subtitle: "Vitesse divisée par deux",
+        description: "Bouger une créature que vous avez agrippée",
+        reference: "PHB, pg. 195.",
+        bullets: [
+            "Quand vous vous déplacez, vous pouvez traîner ou porter la créature que vous avez agrippée, mais votre vitesse est diminuée par deux, à moins que la créature ne soit plus petite que vous d'au moins deux tailles."
         ]
     },
     {
@@ -99,25 +118,6 @@ data_movement_fr = [
         description: "Faire n'importe quel mouvement que vous imaginez",
         bullets: [
             "Quand vous décrivez un mouvement non décrit dans les règles, le MJ vous dit si cette action est possible et quel genre de jet de dés détermine, si nécessaire, le succès ou l'échec."
-        ]
-    },
-    {
-        title: "Terrain difficile",
-        icon: "stone-pile",
-        subtitle: "Modificateur de coût: +1,5m par 1,5m",
-        reference: "PHB, pg. 182.",
-        description: "Vous vous déplacez à la moitié de votre vitesse en terrain difficile (se déplacer d'un mètre en terrain difficile coûte 2 mètres de déplacement).",
-        bullets: [
-        ]
-    },
-    {
-        title: "Bouger une créature agrippée",
-        icon: "grab",
-        subtitle: "Modificateur: demi vitesse",
-        description: "Bouger une créature que vous avez agrippée",
-        reference: "PHB, pg. 195.",
-        bullets: [
-            "Quand vous vous déplacez, vous pouvez traîner ou porter la créature que vous avez agrippée, mais votre vitesse est diminuée par deux, à moins que la créature ne soit plus petite que vous d'au moins deux tailles."
         ]
     }
 ];
