@@ -22,8 +22,8 @@ data_bonusaction_fr = [
             "Vous ne pouvez pas lancer un sort avec votre action and un autre sort avec votre action bonus dans le même tour, sauf si l'action est utilisée pour lancer un cantrip.",
             "Pour plus de détails, voir l'action <i>Lancer un sort</i>."
         ]
-    },
-    {
+    }/* ,
+   {
         title: "Utiliser une capacité de classe",
         icon: "embrassed-energy",
         subtitle: "Certaines capacités utilisent une action bonus",
@@ -31,5 +31,5 @@ data_bonusaction_fr = [
         reference: "Voir les pages de races ou de classes pour plus d'informations.",
         bullets: [
         ]
-    }
+    }*/
 ];
