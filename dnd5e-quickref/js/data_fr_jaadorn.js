@@ -43,7 +43,7 @@ data_bonusaction_fr_jaadorn_heroic = [
         icon: "strong",
         subtitle: "Inspirer les autres (4D10 / repos long)",
         description: "Donne un dé d'Inspiration Charismatique à une créature dans les 18m",
-        reference: "Voie héroïque Charismatique",
+        reference: "Voie héroïque du Charismatique",
         bullets: [
             "Ce dé est utilisable dans les 10 minutes qui suivent pour un jet de compétence, d'attaque ou de sauvegarde.",
             "Une fois utilisé, le dé est perdu. On ne peut avoir qu'un dé en réserve à la fois.",

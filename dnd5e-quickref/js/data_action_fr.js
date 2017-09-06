@@ -89,7 +89,7 @@ data_action_fr = [
         ]
     },
     {
-        title: "S'échapper d'une lutte",
+        title: "Echapper à une prise de lutte",
         icon: "manacles",
         subtitle: "",
         description: "Une créature agrippée peut utiliser son action pour s'échapper.",

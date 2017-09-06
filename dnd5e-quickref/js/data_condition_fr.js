@@ -39,8 +39,8 @@ data_condition_fr = [
         reference: "PHB, pg. 291.",
         bullets: [
             "<table><tr><th>Niveau</th><th></th><th></th><th style='text-align:left'>Effet</th></tr><tr><td>1</td><td></td><td></td><td>Désavantage aux jets de caractéristiques</td></tr><tr><td>2</td><td></td><td></td><td>Vitesse diminuée de moitié</td></tr><tr><td>3</td><td></td><td></td><td>Désavantage aux jets d'attaque et de sauvegarde</td></tr><tr><td>4</td><td></td><td></td><td>Points de vie maximums diminués de moitié</td></tr><tr><td>5</td><td></td><td></td><td>Vitesse réduite à 0</td></tr><tr><td>6</td><td></td><td></td><td>Mort</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink."
+            "Vous souffrez des effets de votre niveau de fatigue et de tous les niveaux inférieurs.",
+            "Un repos prolongé réduit le niveau de fatigue de 1, si vous avez pu aussi boire et manger."
         ]
     },
     {
