@@ -30,6 +30,20 @@ function add_quickref_item(parent, data, type, origin) {
     parent.appendChild(item);
 }
 
+function add_character_item(parent, data) {
+    var item = document.createElement("div");
+    var bullets = data.bullets || [];
+
+    var style = window.getComputedStyle(parent.parentNode.parentNode);
+    var color = style.backgroundColor;
+    color = color || "black";
+
+    var bullets_html = bullets.map(function (item) { return "<p class=\"fonstsize\">" + item + "</p>"; }).join("\n");
+    $("#bullets").html(bullets_html);
+
+    parent.appendChild(item);
+}
+
 function show_modal(data, color, type) {
     var title = data.title || "[no title]";
     var subtitle = data.description || data.subtitle || "";
@@ -59,6 +73,13 @@ function fill_section(data, parentname, type, origin) {
     var parent = document.getElementById(parentname);
     data.forEach(function (item) {
         add_quickref_item(parent, item, type, origin);
+    });
+}
+
+function fill_character_section(data, parentname) {
+    var parent = document.getElementById(parentname);
+    data.forEach(function (item) {
+        add_character_item(parent, item);
     });
 }
 
