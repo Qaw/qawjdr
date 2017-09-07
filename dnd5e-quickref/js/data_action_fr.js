@@ -9,8 +9,8 @@ data_action_fr = [
             "Certaines capacités, comme l'<i>Attaque supplémentaire</i> du guerrier, permettent de réaliser plus d'une attaque avec cette action. Chacune de ces attaques est un jet séparé et peut cibler une créature différente. Vous pouvez vous déplacer entre ces attaques",
             "Lorsque vous utilisez l'action Attaquer et que vous attaquez avec une arme de corps à corps légère que vous portez dans une main, vous pouvez utiliser une action bonus pour attaquer avec une autre arme de corps à corps légère que vous portez dans l'autre main.",
             "Vous pouvez remplacer une de vos attaques de mêlée avec une <i>Lutte</i> ou une <i>Bousculade</i>.",
-            "Certaines conditions donnent un avantage à l'attaque: attaques contre des cibles aveuglées, paralysées, pétrifiées, entravés, assommées ou inconscientes ;  melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Certaines conditions donnent un désavantage à l'attaque: attaques contre des cibles invisibles ou cachées ; attaques à distance contre des cibles à terre ; attaques par des attaquants aveuglés, effrayés, empoisonnés ou entravés."
+            "Certaines conditions donnent un avantage à l'attaque: les attaques contre des cibles aveuglées, paralysées, pétrifiées, entravés, assommées ou inconscientes; les attaques contre des cibles à terre; les attaques par des attaquants invisibles ou cachés.",
+            "Certaines conditions donnent un désavantage à l'attaque: les attaques contre des cibles invisibles ou cachées; les attaques à distance contre des cibles à terre; les attaques par des attaquants aveuglés, effrayés, empoisonnés ou entravés."
         ]
     },
     {
@@ -166,15 +166,6 @@ data_action_fr = [
             "Puis choisir l'action ou le déplacement qui aura lieu lorsqu'elle sera déclenchée.",
             "Quand le déclencheur est activé, vous pouvez soit utiliser votre réaction dès qu'il se termine, soit l'ignorer. Souvenez-vous que vous n'avez droit qu'à une seule réaction par tour.",
             "Quand vous préparez un sort, vous le lancez normalement puis retenez son énergie, que vous ne relâchez par votre réaction que lorsque le déclencheur est activé. Pour être prêt, le sort doit avoir un temps d'incantation d'une action, et il est nécessaire d'être concentré pour contenir la magie du sort. Si votre concentration est interrompue, le sort se dissipe sans aucun effet."
-        ]
-    },
-    {
-        title: "Utiliser une capacité de classe",
-        icon: "embrassed-energy",
-        subtitle: "Certaines capacités utilisent une action",
-        description: "Utiliser une capacité de race ou de classe qui nécessite une action.",
-        reference: "Voir la capacité pour le détail.",
-        bullets: [
         ]
     },
     {

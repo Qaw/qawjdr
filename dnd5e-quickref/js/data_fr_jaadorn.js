@@ -25,14 +25,14 @@ data_bonusaction_fr_jaadorn_class = [
     {
         title: "Inspiration",
         icon: "strong",
-        subtitle: "Inspirer les autres (5D10 / repos long)",
+        subtitle: "Inspirer les autres (6D10 / repos court)",
         description: "Donne un dé d'Inspiration Bardique à une créature dans les 18m",
         reference: "Arcaniste Tradition Charismatique",
         bullets: [
             "Ce dé est utilisable dans les 10 minutes qui suivent pour un jet de compétence, d'attaque ou de sauvegarde.",
             "Grâce à Inspiration de Combat, ce dé peut être utilisé pour le jet de dégâts d'une attaque ou comme bonus à la CA.",
             "Une fois utilisé, le dé est perdu. On ne peut avoir qu'un dé en réserve à la fois.",
-            "Utilisable un nombre de fois égal au modificateur de charisme"
+            "Utilisable un nombre de fois égal au modificateur de charisme. Les dés sont récupérés après un repos court ou long."
         ]
     }
 ];
@@ -47,7 +47,7 @@ data_bonusaction_fr_jaadorn_heroic = [
         bullets: [
             "Ce dé est utilisable dans les 10 minutes qui suivent pour un jet de compétence, d'attaque ou de sauvegarde.",
             "Une fois utilisé, le dé est perdu. On ne peut avoir qu'un dé en réserve à la fois.",
-            "Utilisable un nombre de fois égal au modificateur de charisme"
+            "Les dés sont récupérés après un repos long."
         ]
     }
 ];
@@ -63,6 +63,19 @@ data_reaction_fr_jaadorn_class = [
             "Soustraire ce dé d'un jet d'attaque, de compétence ou de dommage.",
             "Utilisable après le jet de dé mais avant de connaitre le résultat.",
             "La créature est immunisée si elle ne vous entend pas ou est immunisée contre le charme."
+        ]
+    },
+    {
+        title: "Charme instinctif [Instinctive Charm]",
+        icon: "charm",
+        subtitle: "Obliger à attaquer un autre",
+        description: "JS de Sagesse ou attaque une autre créature",
+        reference: "Arcaniste Archetype Enchanteur",
+        bullets: [
+            "Quand une créature que vous pouvez voir dans un rayon de 9m vous attaque, vous détournez son attaque.",
+            "L'attaquand doit faire un JS de Sagesse ou attaquer une autre créature.",
+            "Si elle réussit son JS, il est immunisé jusquà votre prochain repos long.",
+            "Les créatures qui ne peuvent être charmées sont immunisées."
         ]
     }
 ];
