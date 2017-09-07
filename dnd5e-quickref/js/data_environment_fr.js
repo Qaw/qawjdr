@@ -94,7 +94,7 @@ data_environment_cover_fr = [
     {
         title: "Abri partiel",
         icon: "broken-shield",
-        subtitle: "50%",
+        subtitle: "50% : +2 CA et JS Dextérité",
         description: "Une cible a un abri partiel si un obstacle bloque au moins 50% de son corps",
         reference: "PHB, pg. 196.",
         bullets: [
@@ -106,7 +106,7 @@ data_environment_cover_fr = [
     {
         title: "Abri important",
         icon: "cracked-shield",
-        subtitle: "75%",
+        subtitle: "75% : +5 CA et JS Dextérité",
         description: "Une cible a un abri important si un obstacle bloque au moins 75% de son corps",
         reference: "PHB, pg. 196.",
         bullets: [

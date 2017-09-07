@@ -114,6 +114,13 @@
     height: 100%;
 }
 
+.class {
+    background-color: #46b8da;
+}
+
+.heroic {
+    background-color: #5cb85c;
+}
 
 /* ------------------------------------------------------------------------- */
 /* Colors */

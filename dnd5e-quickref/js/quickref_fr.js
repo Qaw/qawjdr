@@ -1,10 +1,16 @@
-function add_quickref_item(parent, data, type) {
+function add_quickref_item(parent, data, type, origin) {
     var icon = data.icon || "perspective-dice-six-faces-one";
     var subtitle = data.subtitle || "";
     var title = data.title || "[no title]";
 
     var item = document.createElement("div");
     item.className += "item itemsize";
+    if (origin == "class"){
+        item.className += " class";
+    }
+    else if (origin == "heroic"){
+        item.className += " heroic";
+    }
     item.innerHTML =
     '\
     <div class="item-icon iconsize icon-' + icon + '"></div>\
@@ -20,6 +26,20 @@ function add_quickref_item(parent, data, type) {
     item.onclick = function () {
         show_modal(data, color, type);
     };
+
+    parent.appendChild(item);
+}
+
+function add_character_item(parent, data) {
+    var item = document.createElement("div");
+    var bullets = data.bullets || [];
+
+    var style = window.getComputedStyle(parent.parentNode.parentNode);
+    var color = style.backgroundColor;
+    color = color || "black";
+
+    var bullets_html = bullets.map(function (item) { return "<p class=\"fonstsize\">" + item + "</p>"; }).join("\n");
+    $("#bullets").html(bullets_html);
 
     parent.appendChild(item);
 }
@@ -49,26 +69,36 @@ function hide_modal() {
     $("#modal").removeClass("modal-visible");
 }
 
-function fill_section(data, parentname, type) {
+function fill_section(data, parentname, type, origin) {
     var parent = document.getElementById(parentname);
     data.forEach(function (item) {
-        add_quickref_item(parent, item, type);
+        add_quickref_item(parent, item, type, origin);
+    });
+}
+
+function fill_character_section(data, parentname) {
+    var parent = document.getElementById(parentname);
+    data.forEach(function (item) {
+        add_character_item(parent, item);
     });
 }
 
 function init() {
-    fill_section(data_movement_fr, "basic-movement", "Move");
-    fill_section(data_action_fr, "basic-actions", "Action");
-    fill_section(data_bonusaction_fr, "basic-bonus-actions", "Bonus action");
-    fill_section(data_reaction_fr, "basic-reactions", "Reaction");
-    fill_section(data_condition_fr, "basic-conditions", "Condition");
-    fill_section(data_environment_obscurance_fr, "environment-obscurance", "Environment");
-    fill_section(data_environment_light_fr, "environment-light", "Environment");
-    fill_section(data_environment_vision_fr, "environment-vision", "Environment");
-    fill_section(data_environment_cover_fr, "environment-cover", "Environment");
+
+    fill_section(data_movement_fr, "basic-movement", "Move", "standard");
+    fill_section(data_action_fr, "basic-actions", "Action", "standard");
+    fill_section(data_bonusaction_fr, "basic-bonus-actions", "Bonus action", "standard");
+    fill_section(data_reaction_fr, "basic-reactions", "Reaction", "standard");
+    fill_section(data_condition_fr, "basic-conditions", "Condition", "standard");
+    fill_section(data_environment_obscurance_fr, "environment-obscurance", "Environment", "standard");
+    fill_section(data_environment_light_fr, "environment-light", "Environment", "standard");
+    fill_section(data_environment_vision_fr, "environment-vision", "Environment", "standard");
+    fill_section(data_environment_cover_fr, "environment-cover", "Environment", "standard");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
 }
 
+
 $(window).load(init);
+
