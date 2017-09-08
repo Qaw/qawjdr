@@ -1,18 +1,3 @@
-data_character_farlans =  [
-    {
-        bullets: [
-            "Votre maximum de KI est 14 + Modificateur Constitution. Vous le reconstituez après un repos court ou un repos long. JS d'un adversaire contre KI : 8 + 5 + Modificateur Force",
-            "2 attaques par round",
-            "Classe d'armure : bonus de +5 si vous êtes en armure légère, même si vous êtes surpris. Vous avez encore un bonus de +2 si vous êtes en mouvement.",
-            "Mouvement : 19,5m (65')",
-            "Avantage au jet d'initiative. Si vous dépensez 2 points de Ki, même si vous êtes surpris, vous pouvez agir normalement.",
-            "Pour un jet de Lutte vous pouvez utiliser Dextérité (Acrobaties) au lieu de Force (Athlétisme). Vous avez en plus l'avantage à votre jet de Lutte.",
-            "Evasion : JS de Dextérité pour aucun dommage, et demi-dommage si vous ratez.",
-            "JS Dextérité : +10 + Mod Dextérité ; JS Force : +5 + Mod Force ; JS Autres : +3 + Mod Caractéristique"
-        ]
-    }
-];
-
 data_bonusaction_fr_farlans_class = [
     {
         title: "Frappe à mains nues",
