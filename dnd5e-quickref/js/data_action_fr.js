@@ -167,15 +167,5 @@ data_action_fr = [
             "Quand le déclencheur est activé, vous pouvez soit utiliser votre réaction dès qu'il se termine, soit l'ignorer. Souvenez-vous que vous n'avez droit qu'à une seule réaction par tour.",
             "Quand vous préparez un sort, vous le lancez normalement puis retenez son énergie, que vous ne relâchez par votre réaction que lorsque le déclencheur est activé. Pour être prêt, le sort doit avoir un temps d'incantation d'une action, et il est nécessaire d'être concentré pour contenir la magie du sort. Si votre concentration est interrompue, le sort se dissipe sans aucun effet."
         ]
-    },
-    {
-        title: "Improviser",
-        icon: "juggler",
-        subtitle: "Toute action absente de cette liste",
-        description: "Faire n'importe quelle action que vous imaginez",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "Quand vous décrivez une action non décrite dans les règles, le MJ vous dit si cette action est possible et quel genre de jet de dés détermine, si nécessaire, le succès ou l'échec."
-        ]
     }
 ];

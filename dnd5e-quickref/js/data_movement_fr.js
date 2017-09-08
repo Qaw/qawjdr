@@ -110,14 +110,5 @@ data_movement_fr = [
         bullets: [
             "Quand vous vous déplacez, vous pouvez traîner ou porter la créature que vous avez agrippée, mais votre vitesse est diminuée par deux, à moins que la créature ne soit plus petite que vous d'au moins deux tailles."
         ]
-    },
-    {
-        title: "Improviser",
-        icon: "juggler",
-        subtitle: "Tout mouvement absent de cette liste",
-        description: "Faire n'importe quel mouvement que vous imaginez",
-        bullets: [
-            "Quand vous décrivez un mouvement non décrit dans les règles, le MJ vous dit si cette action est possible et quel genre de jet de dés détermine, si nécessaire, le succès ou l'échec."
-        ]
     }
 ];
