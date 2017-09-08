@@ -3,6 +3,8 @@ function add_quickref_item(parent, data, type, origin) {
     var subtitle = data.subtitle || "";
     var title = data.title || "[no title]";
 
+    var displayType = data.displayType || "";
+
     var item = document.createElement("div");
     item.className += "item itemsize";
     if (origin == "class"){
@@ -11,14 +13,27 @@ function add_quickref_item(parent, data, type, origin) {
     else if (origin == "heroic"){
         item.className += " heroic";
     }
-    item.innerHTML =
-    '\
-    <div class="item-icon iconsize icon-' + icon + '"></div>\
-    <div class="item-text-container text">\
-        <div class="item-title">' + title + '</div>\
-        <div class="item-desc">' + subtitle + '</div>\
-    </div>\
-    ';
+
+    if (displayType == ""){
+        item.innerHTML =
+        '\
+        <div class="item-icon iconsize icon-' + icon + '"></div>\
+        <div class="item-text-container text">\
+            <div class="item-title">' + title + '</div>\
+            <div class="item-desc">' + subtitle + '</div>\
+        </div>\
+        ';
+    }
+    else if (displayType == "minor") {
+        item.innerHTML =
+        '\
+        <div class="item-icon minor iconsize icon-' + icon + '"></div>\
+        <div class="item-text-container text">\
+            <div class="item-title minor">' + title + '</div>\
+            <div class="item-desc" minor>' + subtitle + '</div>\
+        </div>\
+        ';
+    }
 
     var style = window.getComputedStyle(parent.parentNode.parentNode);
     var color = style.backgroundColor;

@@ -122,6 +122,10 @@
     background-color: #5cb85c;
 }
 
+.minor {
+    opacity: 0.6;
+}
+
 /* ------------------------------------------------------------------------- */
 /* Colors */
 /* ------------------------------------------------------------------------- */
@@ -341,15 +345,6 @@ p:first-child {
 }
 
 @media print {
-    .page-break {
-        display: block;
-        page-break-before: always;
-    }
-
-    size: A4 portrait;
-}
-
-@media print {
     body {
         margin: 0;
         padding: 0;
@@ -369,4 +364,10 @@ p:first-child {
     .enable-print {
         display: block;
     }
+
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+
 }

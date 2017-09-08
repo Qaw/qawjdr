@@ -35,6 +35,7 @@ data_movement_fr = [
     },
     {
         title: "Se jeter à terre",
+        displayType: "minor",
         icon: "falling",
         subtitle: "Coût: 0m",
         description: "Coût du mouvement: 0m (gratuit)",
@@ -47,6 +48,7 @@ data_movement_fr = [
     },
     {
         title: "Ramper",
+        displayType: "minor",
         icon: "crawl",
         subtitle: "Coût: 1m coûte 2m",
         description: "Coût de mouvement: chaque mètre de déplacement en coûte un autre (ou deux autres si le terrain est difficile)",
@@ -94,6 +96,7 @@ data_movement_fr = [
     },
      {
         title: "Terrain difficile",
+        displayType: "minor",
         icon: "stone-pile",
         subtitle: "Coût: 1m coûte 2m",
         reference: "PHB, pg. 182.",

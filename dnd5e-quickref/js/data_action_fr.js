@@ -14,6 +14,22 @@ data_action_fr = [
         ]
     },
     {
+        title: "Lancer un sort [Cast a spell]",
+        icon: "magic-swirl",
+        subtitle: "Temps d'incantation de 1 action",
+        description: "Lancer un sort avec un temps d'incantation d'une action",
+        reference: "PHB, pg. 192.",
+        bullets: [
+            "Vous ne pouvez pas lancer un sort avec votre action et un autre sort avec votre action bonus dans le même tour, sauf si l'action est utiliser pour lancer un sort mineur.",
+            "La cible d’un sort doit être dans la portée du sort.",
+            "Pour cibler quelque chose, vous devez avoir une ligne de vue dégagée.",
+            "Les sorts avec des composants matériels ne consomment pas le composant sauf si c'est explicitement précisé.",
+            "A moins que le coût du matériel ne soit donné, vous pouvez assumer que le coût reste négligeable et que le composant est simplement disponible dans le sac à composants",
+            "Certains sorts requierent que vous mainteniez votre concentration pour garder la magie active. Si vous perdez la concentratin, le sort s'arrête.",
+            "Vous perdez la concentration du sort si vous lancez un autre sort qui requiert de la concentration ou si vous êtes incapacité. A chaque fois que vous prenez des dégêts, vous devez faire un jet de sauvegarde de Constitution pour maintenir votre concentration. Le DC est égal au maximum entre 10 et la moitiée des dégâts pris."
+        ]
+    },
+    {
         title: "Lutter [Grapple]",
         icon: "grab",
         subtitle: "Attaque spéciale au corps à corps",
@@ -40,22 +56,6 @@ data_action_fr = [
             "Faites un jet de Force (Athlétisme) opposé à un jet de Force (Athlétisme) ou de Dextérité (Acrobaties) de la cible (au choix de celle-ci).",
             "Si vous gagnez l'opposition, vous faites tomber à terre la cible ou bien la faites reculer de 1,50 mètre"
 
-        ]
-    },
-    {
-        title: "Lancer un sort [Cast a spell]",
-        icon: "magic-swirl",
-        subtitle: "Temps d'incantation de 1 action",
-        description: "Lancer un sort avec un temps d'incantation d'une action",
-        reference: "PHB, pg. 192.",
-        bullets: [
-            "Vous ne pouvez pas lancer un sort avec votre action et un autre sort avec votre action bonus dans le même tour, sauf si l'action est utiliser pour lancer un sort mineur.",
-            "La cible d’un sort doit être dans la portée du sort.",
-            "Pour cibler quelque chose, vous devez avoir une ligne de vue dégagée.",
-            "Les sorts avec des composants matériels ne consomment pas le composant sauf si c'est explicitement précisé.",
-            "A moins que le coût du matériel ne soit donné, vous pouvez assumer que le coût reste négligeable et que le composant est simplement disponible dans le sac à composants",
-            "Certains sorts requierent que vous mainteniez votre concentration pour garder la magie active. Si vous perdez la concentratin, le sort s'arrête.",
-            "Vous perdez la concentration du sort si vous lancez un autre sort qui requiert de la concentration ou si vous êtes incapacité. A chaque fois que vous prenez des dégêts, vous devez faire un jet de sauvegarde de Constitution pour maintenir votre concentration. Le DC est égal au maximum entre 10 et la moitiée des dégâts pris."
         ]
     },
     {
