@@ -25,7 +25,7 @@ data_reaction_fr = [
     {
         title: "Lancer un sort",
         icon: "magic-swirl",
-        subtitle: "Temps d'incantation de 1 réaction",
+        subtitle: "Temps d'incantation : une réaction",
         description: "Lancer un sort avec un temps d'incantation de 1 réaction",
         reference: "PHB, pg. 192.",
         bullets: [

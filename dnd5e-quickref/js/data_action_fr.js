@@ -44,21 +44,6 @@ data_action_fr = [
         ]
     },
     {
-        title: "Bousculer [Shove]",
-        icon: "hand",
-        subtitle: "Attaque spéciale au corps à corps",
-        description: "Bousculer une créature afin de la faire tomber à terre ou bien de la faire reculer.",
-        reference: "PHB, pg. 195.",
-        bullets: [
-            "Vous pouvez utiliser l'action <i>Attaquer</i> pour bousculer une créature",
-            "Si vous pouvez faire plusieurs attaques avec l'action Attaquer, cette action remplace l'une d'entre elles.",
-            "La cible de cette action ne doit pas être plus d'une taille plus grande que vous et doit être à votre portée",
-            "Faites un jet de Force (Athlétisme) opposé à un jet de Force (Athlétisme) ou de Dextérité (Acrobaties) de la cible (au choix de celle-ci).",
-            "Si vous gagnez l'opposition, vous faites tomber à terre la cible ou bien la faites reculer de 1,50 mètre"
-
-        ]
-    },
-    {
         title: "Foncer [Dash]",
         icon: "sprint",
         subtitle: "Double la vitesse de déplacement",
@@ -89,13 +74,17 @@ data_action_fr = [
         ]
     },
     {
-        title: "Echapper à une prise de lutte",
-        icon: "manacles",
+        title: "Se cacher [Hide]",
+        icon: "hood",
         subtitle: "",
-        description: "Une créature agrippée peut utiliser son action pour s'échapper.",
-        reference: "PHB, pg. 195.",
+        description: "Essayer de se cacher",
+        reference: "PHB, pg. 192.",
         bullets: [
-            "Pour cela, elle doit réussir un jet de Force (Athlétisme) ou de Dextérité (Acrobaties) en opposition à votre jet de Force (Athlétisme)."
+            "Vous ne pouvez pas vous cacher d'une créature qui peut vous voir clairement. Vous devez avoir une couverture totale, être dans une zone très sombre, être invisible, ou sinon que la vision de l'ennemi soit bloquée.",
+            "Vous révélez votre position si vous faites du bruit, comme crier ou renverser un vase.",
+            "Lorsque vous essayez de vous cacher, faites un jet de Dextérité (Discrétion). Tant que vous n'êtes pas découvert ou que vous n'arrêtez pas de vous cacher, le résultat de ce jet est celui qui sera pris en compte pour une opposition avec le jet de Sagesse (Perception) de toute créature qui recherche activement des signes de votre présence.",
+            "Une créature vous remarque même si elle ne vous cherche pas sauf si votre jet de Discrétion est supérieur à sa Perception Passive (10 + Modificateur de sagesse + Maîtrise éventuelle ; +5 si avantage, -5 si désavantage).",
+            "En dehors du combat, vous pouvez faire un jet de Dextérité (Discrétion) pour des actions comme se cacher des ennemis, éviter des gardes, s'éclipser sans être remarqué ou se faufiler sans être vu ou entendu."
         ]
     },
     {
@@ -111,51 +100,6 @@ data_action_fr = [
         ]
     },
     {
-        title: "Utiliser un objet [Use an object]",
-        icon: "snatch",
-        subtitle: "",
-        description: "Interagir avec un second objet ou utiliser les capacités spéciales d'un objet",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "Vous pouvez interagir avec un objet gratuitement pendant votre tour (comme dégainer une arme ou ouvrir une porte). Si vous voulez interagir avec un deuxième objet, utilisez cette action."
-        ]
-    },
-    {
-        title: "Utiliser un bouclier",
-        icon: "round-shield",
-        subtitle: "Mettre ou ôter un bouclier",
-        description: "Mettre ou ôter un bouclier",
-        reference: "PHB, pgs. 144-146.",
-        bullets: [
-            "Mettre ou ôter un bouclier prend une action.",
-            "Mettre ou ôter une armure prend plusieurs minutes.<table style='text-align:left'><tr><th>Catégorie</th><th>Mettre</th><th>Ôter</th></tr><tr><td>Armure légère</td><td>1 minute</td><td>1 minute</td></tr><tr><td>Armure intermédiaire</td><td>5 minutes</td><td>1 minute</td></tr><tr><td>Armure lourde</td><td>10 minutes</td><td>5 minutes</td></tr></table>"
-        ]
-    },
-    {
-        title: "Se cacher [Hide]",
-        icon: "hood",
-        subtitle: "",
-        description: "Essayer de se cacher",
-        reference: "PHB, pg. 192.",
-        bullets: [
-            "Vous ne pouvez pas vous cacher d'une créature qui peut vous voir clairement. Vous devez avoir une couverture totale, être dans une zone très sombre, être invisible, ou sinon que la vision de l'ennemi soit bloquée.",
-            "vous révélez votre position si vous faites du bruit, comme crier ou renverser un vase.",
-            "Lorsque vous essayez de vous cacher, faites un jet de Dextérité (Discrétion). Tant que vous n'êtes pas découvert ou que vous n'arrêtez pas de vous cacher, le résultat de ce jet est celui qui sera pris en compte pour une opposition avec le jet de Sagesse (Perception) de toute créature qui recherche activement des signes de votre présence.",
-            "Une créature vous remarque même si elle ne vous cherche pas sauf si votre jet de Discrétion est supérieur à sa Perception Passive (10 + Modificateur de sagesse + Maîtrise éventuelle ; +5 si avantage, -5 si désavantage).",
-            "En dehors du combat, vous pouvez faire un jet de Dextérité (Discrétion) pour des actions comme se cacher des ennemis, éviter des gardes, s'éclipser sans être remarqué ou se faufiler sans être vu ou entendu."
-        ]
-    },
-    {
-        title: "Chercher",
-        icon: "magnifying-glass",
-        subtitle: "Essayer de trouver quelque chose",
-        description: "",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "Selon la nature de la recherche, le MJ peut vous demander un jet de Sagesse (Perception) ou Intelligence (Investigation)."
-        ]
-    },
-    {
         title: "Se tenir prêt [Ready]",
         icon: "stopwatch",
         subtitle: "Attendre avant d'agir",
@@ -166,6 +110,67 @@ data_action_fr = [
             "Puis choisir l'action ou le déplacement qui aura lieu lorsqu'elle sera déclenchée.",
             "Quand le déclencheur est activé, vous pouvez soit utiliser votre réaction dès qu'il se termine, soit l'ignorer. Souvenez-vous que vous n'avez droit qu'à une seule réaction par tour.",
             "Quand vous préparez un sort, vous le lancez normalement puis retenez son énergie, que vous ne relâchez par votre réaction que lorsque le déclencheur est activé. Pour être prêt, le sort doit avoir un temps d'incantation d'une action, et il est nécessaire d'être concentré pour contenir la magie du sort. Si votre concentration est interrompue, le sort se dissipe sans aucun effet."
+        ]
+    },
+    {
+        title: "Bousculer [Shove]",
+        displayType: "minor",
+        icon: "hand",
+        subtitle: "Attaque spéciale au corps à corps",
+        description: "Bousculer une créature afin de la faire tomber à terre ou bien de la faire reculer.",
+        reference: "PHB, pg. 195.",
+        bullets: [
+            "Vous pouvez utiliser l'action <i>Attaquer</i> pour bousculer une créature",
+            "Si vous pouvez faire plusieurs attaques avec l'action Attaquer, cette action remplace l'une d'entre elles.",
+            "La cible de cette action ne doit pas être plus d'une taille plus grande que vous et doit être à votre portée",
+            "Faites un jet de Force (Athlétisme) opposé à un jet de Force (Athlétisme) ou de Dextérité (Acrobaties) de la cible (au choix de celle-ci).",
+            "Si vous gagnez l'opposition, vous faites tomber à terre la cible ou bien la faites reculer de 1,50 mètre"
+
+        ]
+    },
+    {
+        title: "Echapper à une prise de lutte",
+        displayType: "minor",
+        icon: "manacles",
+        subtitle: "",
+        description: "Une créature agrippée peut utiliser son action pour s'échapper.",
+        reference: "PHB, pg. 195.",
+        bullets: [
+            "Pour cela, elle doit réussir un jet de Force (Athlétisme) ou de Dextérité (Acrobaties) en opposition à votre jet de Force (Athlétisme)."
+        ]
+    },
+    {
+        title: "Utiliser un objet [Use an object]",
+        displayType: "minor",
+        icon: "snatch",
+        subtitle: "",
+        description: "Interagir avec un second objet ou utiliser les capacités spéciales d'un objet",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "Vous pouvez interagir avec un objet gratuitement pendant votre tour (comme dégainer une arme ou ouvrir une porte). Si vous voulez interagir avec un deuxième objet, utilisez cette action."
+        ]
+    },
+    {
+        title: "S'équiper d'un bouclier",
+        displayType: "minor",
+        icon: "round-shield",
+        subtitle: "Mettre ou ôter un bouclier",
+        description: "Mettre ou ôter un bouclier",
+        reference: "PHB, pgs. 144-146.",
+        bullets: [
+            "Mettre ou ôter un bouclier prend une action.",
+            "Mettre ou ôter une armure prend plusieurs minutes.<table style='text-align:left'><tr><th>Catégorie</th><th>Mettre</th><th>Ôter</th></tr><tr><td>Armure légère</td><td>1 minute</td><td>1 minute</td></tr><tr><td>Armure intermédiaire</td><td>5 minutes</td><td>1 minute</td></tr><tr><td>Armure lourde</td><td>10 minutes</td><td>5 minutes</td></tr></table>"
+        ]
+    },
+    {
+        title: "Chercher",
+        displayType: "minor",
+        icon: "magnifying-glass",
+        subtitle: "Essayer de trouver quelque chose",
+        description: "",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "Selon la nature de la recherche, le MJ peut vous demander un jet de Sagesse (Perception) ou Intelligence (Investigation)."
         ]
     }
 ];
