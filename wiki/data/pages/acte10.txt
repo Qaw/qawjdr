@@ -1,0 +1,55 @@
+====== Un Murmure dans l'Ombre ======
+
+===== Scene 1 : La Fin du Murmure =====
+Les personnages ont quitté [[Pierre Profonde|Pierre Profonde]] et voyagé par-delà les cimes des //montagnes Arunath// en possession d'[[Elendilmir|Elendilmir]], le cristal qui renferme l'âme désincarnée de [[Tyrael|Tyrael]]. Leurs pas les mènent jusqu'aux pentes nord des montagnes et sous leurs yeux s'étend l'infini canopée du [[Marais des Druides|Marais des Druides]].
+Ils entament alors la descente entre les deux bras qui donnent naissance à la //rivière Iathril// et ils réfléchissent à leur prochaine destination. 
+
+==== Evènements ====
+  * La nuit où les héros atteignent le dernier col des montagnes Arunath, une ombre se manifeste pour s'emparer du cristal. [[Coreba|Coreba]] parvient in extremis à se débarrasser de l'objet mais il est emporté dans les ombres.
+  * Alors qu'ils s'apprêtent à redescendre en direction du Marais, ils aperçoivent au loin une créature ailée de taille immense. Il s'agit d'un dragon mais ils ne parviennent pas à l'identifier.
+  * En lisière du Marais des Druides, à l'endroit où prennent fin les contreforts des Arunath, les personnages sont observés par un jeune danisil en plein rite de passage. Il a atteint l'endroit de sa quête et planté un Ebo-ta, puis il attend désormais que l'arbre fasse une pousse.
+
+==== Hurlement ====
+Alors que les personnages passent leur première nuit dans le Marais, un cataclysme s'abat sur le Murmure : animaux en fuite, nuées d'insectes et de volatiles, hurlement des âmes...
+[[Arandall|Arandall]] n'en sort pas indemne et il perçoit l'appel au secours de la [[Aradil|Reine Sorcière]].
+
+A compter de ce jour :
+  * De nombreux animaux gisent morts ou inconscients sur le sol
+  * Regain d'activité démoniaque dans la jungle. 
+  * Privés du Murmure, il est probable que de nombreux chasseurs danisils périssent sous leurs griffes.
+  * D'une manière générale, les villages et les communautés elfes se replient sur elle-même le temps de comprendre la situation, d'organiser les défenses et d'appréhender les conséquences. L'état d'urgence maximal est décrété à Caradul
+  * Les elfes perdent un avantage tactique majeur et ils sont durement touchés.
+
+==== Rejoindre Caradul ====
+Les personnages décident de rejoindre [[Caradul|Caradul]] pour prendre des nouvelles, pour reporter leurs dernières avancées et pour apporter leur aide.
+Ils commencent par traverser le Marais à pied pour rejoindre la //rivière Iathril// et la descendre la rivière à l'aide d'une embarcation de fortune.
+
+=== Les dangers de l'Aruun ===
+La jungle du sud de l'Erethor est un endroit inhospitalier, peuplée de dangers naturels et surnaturels.
+
+  * Sous surveillance silencieuse : Les héros se sentent observés. Ils aperçoivent un serpent éveillé qui les suit à bonne distance.
+  * Descendre la //rivière Iathril// : Naviguer sur les eaux tumultueuses des cours d'//Erethor// n'est pas une mince affaire mais cela reste possible. A cette occasion, [[Jaadorn|Jaadorn]] se révèle un navigateur capable comme ses origines gnomes le laissaient deviner.
+  * Démons et Dryades : Alors que les personnages font halte sur les rives, il perçoivent d'étranges cris de détresse, semblables à ceux d'une femme et pourtant différents. Un vacarme de cris gutturaux et simiesques couvrent les appels au secours d'une //dryade// aux prises avec un //Nafelshnee// et une demi-douzaine de //Bar'lGura//. Approchant l'origine des cris, ils aperçoivent une partie des démons jouant avec la //Dryade// blessée et incapable de rejoindre son arbre (La moitié des //Bar'lGura// est invisible ou cachée). 
+Les personnages volent au secours de la //dryade// et parviennent à lui sauver la vie. Ils éliminent la plupart des démons mais le //Nafelshnee// prend la fuite.
+
+=== Passage par Les Voies Anciennes ===
+
+Les héros rencontrent une autre //dryade// qui, pour les récompenser d'avoir sauver sa soeur, leur indique les ruines d'un //Croisement de Voies Anciennes//.
+
+Une énigme est gravée  dans une langue oubliée sur d'ancienne pierres couvertes de mousse :
+
+ // Sans cesse en train de danser,//
+ // Donnez moi à manger et je vivrai,//
+ // Donnez moi à boire et je mourrai.//
+
+La traduction est rendue possible grâce à un esprit invoqué par [[Jaadorn|Jaadorn]] (un //Couatl//) qui les accompagnent dans le monde brumeux sitôt après qu'ils ont trouvé la réponse (//le Feu//) et s'en sont servi sur l'étrange pierre
+
+...et c'est en mettant en contact la pierre centrale avec une source enflammée que le Croisement transporte les héros dans un monde de brumes...
+
+
+
+
+  * La **Reine Sorcière** racontée par //Beonoul// : [[http://wiki.qawjdr.com/lib/exe/fetch.php?media=the_witch_queen.pdf||The Witch Queen]]
+
+  * Le **Sorcier de l'Ombre**, révélé par //Beonoul// et //Enverin Belandir//, Maître Espion des Yeux d'Aradil :[[http://wiki.qawjdr.com/lib/exe/fetch.php?media=Sorcerer of Shadow.pdf||Sorcerer of Shadow]]
+
