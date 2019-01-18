@@ -4,8 +4,8 @@
 
 Les [[elfes:caradul|elfes de Caradul]]:
   * Capitaine Aevendil 
-  * Elamil Undomiel
-  * Enverin Belandir, Maître Espion des Yeux d'Aradil
+  * [[Elamil Undomiel]]
+  * [[Enverin Belandir]], Maître Espion des Yeux d'Aradil
   * Faylian, Chef du Sept de la Rivière
   * [[Luthielle]]
   * Maeglin Anandil, Capitaine des Ormes Furtifs
@@ -21,6 +21,9 @@ Les elfes de la cité d'**[[Althorin]]**
   * Mishala
   * Alachal
 
+Les elfes de la [[Citadelle des Cataractes]]
+  * [[Faylian]]
+
 Oeils d'Aradil
   * [[Mirwentyl]]
 
@@ -28,25 +31,26 @@ Avatar de la Reine
   * [[Vilqueril Moon Whisper]]
 
 Quelques membres du [[elfes:Conseil|Conseil de la Reine]]
+  * [[Agwel Agorthand]]
   * [[Durelion, Lord of Caradul]]
   * [[Béonul]]
   * [[Bréoul]]
-  * [[Puimoro]]
-  * [[Liathorn Ralogeiros]]
-  * [[Illithor Lorahice]]
-  * [[Phaendar Glynkian]]
-  * [[Noctuaalba]]
-  * [[Maëve Ap Doireann]]
-  * [[Lytronel Chaewarin]]
-  * [[Hagen Yttafiel]]
-  * [[Nyambura]]
   * [[Elenwë Nargothrond]]
-  * [[Nieven Sylvalur]]
   * [[Gereth]]
-  * [[Agwel Agorthand]]
-  * [[Valgard Sigeraedisson]]
+  * [[Hagen Yttafiel]]
+  * [[Illithor Lorahice]]
+  * [[Liathorn Ralogeiros]]
+  * [[Lytronel Chaewarin]]
+  * [[Maëve Ap Doireann]]
+  * [[Noctuaalba]]
+  * [[Puimoro]] 
+  * [[Phaendar Glynkian]]
+  * [[Nieven Sylvalur]]
+  * [[Nyambura]]
   * [[Ranghild Oleifdottir]]
   * [[Thetys Rosandoral]]
+  * [[Valgard Sigeraedisson]]
+
 
 Noms evoqués
   * [[Deliantra]]
@@ -56,7 +60,7 @@ Noms evoqués
 ==== Humains ====
 
 Pays Dorn
-  *Clan NORFALL (Princes Pirate)
+  *[[Clan NORFALL (Princes Pirate)]]
     *[[Ragnhild Oleifdotir]]
 
   *Clan Dunfjall
@@ -75,6 +79,7 @@ Royaume Sarkosien
     *[[Saïd Moulichim]]
     *[[Akyléos]]
     *[[Sahi Sheïr Athéus]]
+    *[[Farah Shanduz]] -Seigneur de [[Sharuun]]
 ==== Célestes ====
 === Anges ===
 
@@ -94,6 +99,7 @@ Royaume Sarkosien
 
 ==== Légats ====
   * [[Ikbor]]
+  * [[Bartholomé l'écorcheur]]
 ==== Orques ====
   * [[Kara-Tu]]
 ==== Collaborateurs ====
@@ -105,7 +111,7 @@ Royaume Sarkosien
 
 ==== Mercenaires et Chasseurs ====
 
-  * **[[Le fléau des sorcières]]**
+  * *[[Le fléau des sorcières]]*
     * ..... - Succube
     * [[Radamante - Cavalier noir]]
     * [[Mokron - orque 1/2 démon]]
@@ -126,6 +132,8 @@ Royaume Sarkosien
 ==== Gardiens ====
 ==== Monstres uniques ====
 ==== Elémentaires ====
+
+   * [[Eaehysse]]
 ==== Dragons ====
 
    * [[Verlathis]] aussi connue comme Marie-Jeanne

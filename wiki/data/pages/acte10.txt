@@ -46,10 +46,71 @@ La traduction est rendue possible grâce à un esprit invoqué par [[Jaadorn|Jaa
 
 ...et c'est en mettant en contact la pierre centrale avec une source enflammée que le Croisement transporte les héros dans un monde de brumes...
 
+C'est là que ils rencontrent des boggel apparentés aux lutins, ainsi qu'[[Eurielle]]. C'est une créature humanoïde qui a le visage voilé et qui parle en sifflant légèrement. Elle les invite à la suivre et dans le jardin de son palais blanc, ils remarquent des statues aux poses étranges. Ils comprennent vite que c'est une méduse. Une discussion s'engage et tourne vinaigre. Un combat s'engage et l'issue en est fatale pour [[Eurielle]].
+Les héros récupère sa lance (**Saasken**), son arc (**Arandall**) et son pendentif de jade (**Jadorn**)
+
+=== Arrivée en Erethor ===
+
+Les héros arrivent non loin du [[le_pont_des_orchidees|pont des Orchidées]].
+
+S'ensuit une escarmouche entre les troupes de l'Ombre infiltrée. Ils commençaient à torturer une elfe.
+La troupe est nombreuse et les héros ne doivent leur salut qu'à l'arrivée inopinée d'une troupe de guerriers elfes ainsi que de [[Cinderella]], l'ancienne aimée d'**Arandall**.
+
+Nous soignons l'elfe qui réponds au nom de [[Luthielle]].
+Nous remarquons que le gardien du Nexus, un ravageur gris, est décédé.
+
+[[Luthielle]] nous apprends que la troupe de l'Ombre a profité de l'arret du murmure pour s'infiltrer.
+
+Les elfes nous emmènent à la [[Citadelle des cataractes]].
+Là, nous apprenons que l'offensive de l'Ombre sur la forteresse de 3 Chênes est un échec. Les troupes de [[Sunulael]] auraient été prise à revers, par les troupes d'[[Orcus]].
+
+L'attaque contre le murmure semble venu du Nord. La loi martiale a été décrétée à [[Caradul]]. [[Faylian]] nous mets en garde sur l’accueil qui nous sera réservé dans la cité.
+
+Lors des entretiens, [[Eaehysse]], l'élémentaire d'eau qui protege la Citadelle se mets en colère.
+Les druides arrivent à le calmer.
+
+Après une nuit de repos, les druides invoquent des Nicacrins, des élémentaires d'eau mineurs de forme equines, afin de remonter rapidement le cours de la Felthera.
+Lors d'une nuit de pause, nous sommes reveillés par [[Rhoark]] et [[Grahaen]], deux ours sanguinaires qui patrouillent dans la région Sud de [[Caradul]].
+Après quelques jours, à pied et en radeau, nous finissons par arriver dans les faubourgs de la capitale des elfes
 
 
+===== Scène 2 : Arrivée à Caradul et rencontres =====
+
+Une fois arrivé dans la cité, nous croisons rapidement des gardes.
+**Saasken** ressent un léger mal de crane, sans doute le charme de Caradul.
+
+**Arendall** et **Jadorn** s'annoncent. Le capitaine nous rappellent que la cité est sous la loi martiale et que nous rencontrerons le seigneur [[Durélion]] avant toutes choses. Nous sommes accompagnés jusqu'à un casernement. Zack est mis en cage.
+
+
+C'est alors [[Maevenn Essendilh]] vient nous voir. Elle est envoyée par le Conseil et le seigneur [[Durelion]]. Elle sera notre guide et nous emmene scéance tenante.
+
+Sur le chemin, une jeune elfe saute sur **Jadorn** et l'embrasse fougeusement: C'est [[Núnyan Mainleste]], la jeune elfe qu'il a courtisé lorsqu'il était à Caradul (Voir acte 1). **Farlens** aperçoit sa femme [[Elamil Undomiel]].
+
+Le seigneur [[Durelion]] nous reçoit. A ses cotés, un archimage elfe du nom de [[Annûn Gildor]]. Chacun est avec ses gardes du corps et plusieurs champions sont à leurs cotés. Nous nous asseyons.
+
+**Durelion** s'oppose fermement à ce que nous rencontrions la Reine,**Saasken** évoque **Kurutania** et l'Archange. Et c'est alors que la question concernant ce qu'est **Saasken** surgit.
+
+Il se présente alors comme étant un fils d'**Aryth**, que son pouvoir et son essence ont été arrachée à **Izrador**. **Durelion** et l'assemblée panique un peu. En gage de bonne foi, **Saasken** laisse tomber ses armes et les autres font alors de même, par solidarité. Elles seront gardés à la caserne du Sycomore.
+
+Nous sommes ramenés à nos appartements. [[maevenn_essendilh|Dame Maewen]] partagera nos appartements afin de pouvoir répondre à nos questions. Le maitre espion d'Aradil, maitre [[Enverin Belandir]] vient nous voir et il congédie **Dame Maewen**. Il rassure **Saasken** quand à sa nature supposée. Il nous félicite pour les fleurs de Bashurari et nous apprends de bien sombres nouvelles:
+    * La reine est alitée
+    * Ses avatars sont mal en point
+    * Les adeptes du murmures sont très affectés et les premiers sortent à peine du coma.
+
+Il nous apprends sans surprise que nous avons des ennemis au sein du conseil: ceux là même qui n'ont pas apprécié l'explosion du miroir noir de [[Zorgetch]]. Les chasseurs de sorcières ont perdu notre trace peu après notre pénétration dans la jungle, et il semblerait que l'autre groupe se soit échappé aussi. Très courroucé, [[Sunulael]] a puni ses chasseurs. Il les a alors envoyé querir des objets nous ayant appartenu, receuillir des infos etc...  Il va surement lancer une divination ou un sort puissant pour nous atteindre.
+
+**Enverin** a contacté les *Fils de Baden* afin qu'ils récupèrent les objets ou tout au moins une partie, ce qu'ils ont fait de leurs mieux, [[Orcus]] ayant quasiment détruit la ville. Il a retourné à son avantage les troupes du premier légat, détruit le miroir et en a absorbé sa magie.
+
+[[Sunulael]] s'est alors rendu au Promontoire de Baden pour...???
+
+
+
+===== Scène 3 : Conseil des elfes, révélations et préparation pour le sang de la Reine =====
 
   * La **Reine Sorcière** racontée par //Beonoul// : [[http://wiki.qawjdr.com/lib/exe/fetch.php?media=the_witch_queen.pdf||The Witch Queen]]
 
   * Le **Sorcier de l'Ombre**, révélé par //Beonoul// et //Enverin Belandir//, Maître Espion des Yeux d'Aradil :[[http://wiki.qawjdr.com/lib/exe/fetch.php?media=Sorcerer of Shadow.pdf||Sorcerer of Shadow]]
-
+===== Scène 4 : fin de la préparation, 2e conseil restreint et expédition au Cœur se l'arbre primordial =====
+===== Scène 5 : Survol de la forêt, ruines d'althorin et départ en mer jusqu'à la rencontre de Zardrix. Arrivée à Haventor =====
+===== Scène 6 : Départ d'Haventor, traversée des Îles Corbron, arrivée dans le nord, découverte de Brineval et du Repaire des Boendr d'Eoghain =====
+===== Scène 7 : la fin =====
