@@ -3,3 +3,5 @@
 /nbproject/project.xml
 /nbproject/customs.json
 .idea/
+
+\.vscode/sftp\.json
