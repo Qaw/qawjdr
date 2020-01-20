@@ -30,12 +30,23 @@ data_bonusaction_fr_ghaleb_class = [
         icon: "strong",
         subtitle: "Commencer la Shurapoli",
         description: "",
-        reference: "Danseur de lame pellurien",
+        reference: "Danseur de Guerre Pellurien",
         bullets: [
             "Si vous portez une armure légère ou aucune armure, vous pouvez utiliser une action bonus pour entrer en shurapoli", 
-            "Vous gagnerz les avantages suivants. Quand vous portez une épée à deux mains, vous pouvez utiliser votre Dextérité au lieu de votre Force pour les jets d'attaque et de dégâts.",
+            "Vous gagner les avantages suivants. Quand vous portez une épée à deux mains, vous pouvez utiliser votre Dextérité au lieu de votre Force pour les jets d'attaque et de dégâts.",
             "Vous pouvez ajouter la moitié de votre bonus de compétence à votre CA contre toutes les attaques.",
             "La danse s'arrête si votre vitesse tombe à 0."
+        ]
+    },
+    {
+        title: "Intouchable",
+        icon: "dodging",
+        subtitle: "Se désengager",
+        description: "",
+        reference: "Danseur de Guerre Pellurien",
+        bullets: [
+            "Vous pouvez vous désengager avec une action bonus.", 
+            "Votre mouvement ne provoque pas d'attaques d'opportunités pour le reste du tour."
         ]
     }
 ];
@@ -59,7 +70,7 @@ data_maneuver_fr_ghaleb_class = [
         icon: "run",
         subtitle: "Améliorer l'acrobatie ou la dextérité",
         description: "",
-        reference: "Danseur de lame pellurien",
+        reference: "Danseur de Guerre Pellurien",
         bullets: [
             "Lorsque vous faites un jet qui vous permet d'appliquer votre compétence en acrobatie ou lorsque vous faites une sauvegarde de dextérité, vous pouvez utiliser un <b>dé de supériorité</b> pour augmenter le jet.",
             "Ajoutez la moitié (arrondi au supérieur) du nombre obtenu sur le <b>dé de supériorité</b> à votre jet. Vous appliquez ce bonus après avoir fait le test mais avant de savoir s'il a réussi..."
