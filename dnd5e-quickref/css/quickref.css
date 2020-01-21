@@ -122,6 +122,10 @@
     background-color: #5cb85c;
 }
 
+.feat {
+    background-color: #b7b85c;
+}
+
 .minor {
     opacity: 0.5;
 }

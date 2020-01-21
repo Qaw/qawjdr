@@ -13,6 +13,9 @@ function add_quickref_item(parent, data, type, origin) {
     else if (origin == "heroic"){
         item.className += " heroic";
     }
+    else if (origin == "feat"){
+        item.className += " feat";
+    }
 
     if (displayType == ""){
         item.innerHTML =
