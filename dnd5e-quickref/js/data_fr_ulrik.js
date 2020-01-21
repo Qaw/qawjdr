@@ -48,7 +48,31 @@ data_action_fr_ulrik_class = [
             "Vous ajoutez au choix votre bonus de Force ou de Dextérité et le résultat du dé au jet de dégâts.",
             "Le bouclier est considéré comme une arme improvisée dans ce cas, et la base de dommage est donc un D4."
         ]
-    }  
+    }
+];
+
+data_bonusaction_fr_ulrik_feat = [
+    {
+        title: "Bousculer avec son bouclier",
+        icon: "shield",
+        subtitle: "Bousculer avec son bouclier",
+        description: "",
+        reference: "Don Spécialiste des boucliers",
+        bullets: [
+            "Si vous prenez l'action Attaquer à votre tour, vous pouvez utiliser une action bonus pour essayer de bousculer une créature située à 1,50 mètre ou moins de vous avec votre bouclier."
+        ]
+    },
+    {
+        title: "Attaquer en chargeant",
+        icon: "quick-slash",
+        subtitle: "Attaquer en chargeant",
+        description: "",
+        reference: "Don Expert de la charge",
+        bullets: [
+            "Lorsque vous utilisez votre action pour Foncer, vous pouvez utiliser une action bonus pour faire une attaque au corps à corps avec une arme ou bousculer une créature.",
+            "Si vous vous déplacez d'au moins 3 mètres en ligne droite juste avant de prendre cette action bonus, vous gagnez <br> - soit un bonus de +5 aux dégâts de l'attaque (si vous avez choisi de faire une attaque au corps à corps et que vous touchez), <br> - soit vous repoussez la cible jusqu'à 3 mètres de vous (si vous avez choisi de la bousculer et que vous réussissez)."
+        ]
+    }
 ];
 
 data_reaction_fr_ulrik_class = [
