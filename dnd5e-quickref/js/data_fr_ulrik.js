@@ -156,7 +156,19 @@ data_maneuver_fr_ulrik_class = [
             "Ajoutez votre <b>dé de supériorité</b> aux dégâts, et si la cible est de taille G ou plus petite elle devra faire un jet de sauvegarde de Force. <br> DD du jet de sauvegarde contre la manœuvre = 8 + votre bonus de maîtrise + votre modificateur de Force ou de Dextérité (au choix)",
             "En cas d’échec, votre cible tombe à terre."
         ]
-    } 
-    
-    
+    }     
+];
+
+data_feature_fr_ulrik_class = [
+    {
+        title: "Invincible",
+        icon: "strong",
+        subtitle: "Relancer un jet de sauvegarde",
+        description: "",
+        reference: "Guerrier",
+        bullets: [ 
+            "Vous pouvez relancer un jet de sauvegarde que vous avez raté. Si vous le faites, vous devez utiliser le nouveau résultat, et vous ne pouvez pas utiliser à nouveau cette capacité avant d'avoir terminé un repos long.",
+            "Vous pouvez utiliser cette capacité deux fois entre les repos longs."
+        ]
+    }   
 ];

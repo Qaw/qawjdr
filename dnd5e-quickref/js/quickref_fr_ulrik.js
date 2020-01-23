@@ -8,6 +8,8 @@ function initPerso() {
     fill_section(data_reaction_fr_ulrik_class, "basic-reactions", "Réaction", "class");
 
     fill_section(data_maneuver_fr_ulrik_class, "basic-maneuvers", "Manoeuvre", "class");
+
+    fill_section(data_feature_fr_ulrik_class, "basic-features", "Capacité", "class");
        
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;

@@ -8,6 +8,8 @@ function initPerso() {
     fill_section(data_maneuver_fr_ghaleb_class, "basic-maneuvers", "Manoeuvre", "class");
     fill_section(data_maneuver_fr_ghaleb_heroic, "basic-maneuvers", "Manoeuvre", "heroic");
        
+    fill_section(data_feature_fr_ghaleb_class, "basic-features", "Capacité", "class");
+
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
 }

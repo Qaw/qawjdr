@@ -60,6 +60,17 @@ data_reaction_fr_ghaleb_heroic = [
         bullets: [ 
             "Si une créature vous touche avec une attaque au corps à corps, vous pouvez utiliser votre réaction et un <b>dé de supériorité</b> pour réduire les dégâts d'un montant égal à votre résultat au <b>dé de supériorité</b> + votre modificateur de Dextérité."
         ]
+    },
+    {
+        title: "Riposte",
+        icon: "saber-slash",
+        subtitle: "Riposter contre une attaque ratée",
+        description: "",
+        reference: "Guerrier",
+        bullets: [ 
+            "Si une créature vous rate lors d'une attaque au corps à corps, vous pouvez utiliser votre réaction et un <b>dé de supériorité</b> pour faire une attaque avec une arme au corps à corps contre cette créature.",
+            "Si vous touchez, ajoutez votre <b>dé de supériorité</b> aux dégâts."
+        ]
     }
 ];
 
@@ -113,17 +124,6 @@ data_maneuver_fr_ghaleb_class = [
 
 data_maneuver_fr_ghaleb_heroic = [
     {
-        title: "Riposte",
-        icon: "saber-slash",
-        subtitle: "Riposter contre une attaque ratée",
-        description: "",
-        reference: "Guerrier",
-        bullets: [ 
-            "Si une créature vous rate lors d'une attaque au corps à corps, vous pouvez utiliser votre réaction et un <b>dé de supériorité</b> pour faire une attaque avec une arme au corps à corps contre cette créature.",
-            "Si vous touchez, ajoutez votre <b>dé de supériorité</b> aux dégâts."
-        ]
-    },
-    {
         title: "Fente",
         icon: "all-for-one",
         subtitle: "Augmenter l'allonge d'une attaque",
@@ -148,7 +148,7 @@ data_maneuver_fr_ghaleb_heroic = [
     {
         title: "Attaque de manoeuvre",
         icon: "backup",
-        subtitle: "Placer un allié après une attaque réussie",
+        subtitle: "Déplacer un allié après une attaque réussie",
         description: "",
         reference: "Guerrier",
         bullets: [ 
@@ -156,4 +156,18 @@ data_maneuver_fr_ghaleb_heroic = [
             "Ajoutez votre <b>dé de supériorité</b> aux dégâts et choisissez une créature amicale qui peut vous voir ou vous entendre. Cette créature pourra utiliser sa réaction pour se déplacer de la moitié de sa vitesse sans provoquer d'attaque d’opportunité de la part de la cible de votre attaque."
         ]
     }      
+];
+
+data_feature_fr_ghaleb_class = [
+    {
+        title: "Invincible",
+        icon: "strong",
+        subtitle: "Relancer un jet de sauvegarde",
+        description: "",
+        reference: "Guerrier",
+        bullets: [ 
+            "Vous pouvez relancer un jet de sauvegarde que vous avez raté. Si vous le faites, vous devez utiliser le nouveau résultat, et vous ne pouvez pas utiliser à nouveau cette capacité avant d'avoir terminé un repos long.",
+            "Vous pouvez utiliser cette capacité deux fois entre les repos longs."
+        ]
+    }   
 ];
