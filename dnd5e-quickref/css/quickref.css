@@ -165,12 +165,20 @@
     color: DarkOliveGreen ;
 }
 
-#section-maneuver, #section-action .item-icon {
+#section-maneuver, #section-maneuver .item-icon {
     background-color: black;
     border-color: black;
 }
 #section-maneuver .text {
     color: black;
+}
+
+#section-feature, #section-feature .item-icon {
+    background-color: rgb(51, 47, 47);
+    border-color: rgb(51, 47, 47);
+}
+#section-feature .text {
+    color: rgb(51, 47, 47);
 }
 
 #section-condition, #section-condition .item-icon {
