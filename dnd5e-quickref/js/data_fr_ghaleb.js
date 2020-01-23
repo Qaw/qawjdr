@@ -32,10 +32,9 @@ data_bonusaction_fr_ghaleb_class = [
         description: "",
         reference: "Danseur de Guerre Pellurien",
         bullets: [
-            "Si vous portez une armure légère ou aucune armure, vous pouvez utiliser une action bonus pour entrer en shurapoli", 
-            "Vous gagner les avantages suivants. Quand vous portez une épée à deux mains, vous pouvez utiliser votre Dextérité au lieu de votre Force pour les jets d'attaque et de dégâts.",
-            "Vous pouvez ajouter la moitié de votre bonus de compétence à votre CA contre toutes les attaques.",
-            "La danse s'arrête si votre vitesse tombe à 0."
+            "Cette capacité ne peut être utilisée que si vous portez une armure légère ou non et, dans la plupart des cas, si vous portez un grand sabre ou un fauchon dans les deux mains.<br> En outre, elle ne peut pas être utilisée lorsque vous avez une pénalité d'encombrement ou lorsque vous utilisez un bouclier.",
+            "Vous pouvez utiliser une action bonus pour entrer en position et vous bénéficiez des avantages suivants : <br>- Quand vous portez une épée à deux mains ou un fauchon, vous pouvez utiliser votre Dextérité au lieu de votre Force pour les jets d'attaque et de dégâts. <br>- Vous pouvez ajouter la moitié de votre bonus de compétence à votre CA contre toutes les attaques.",
+            "La danse s'arrête si votre vitesse tombe à 0 ou si vous obtenez une pénalité d'encombrement."
         ]
     },
     {
