@@ -24,7 +24,21 @@ data_action_fr_ulrik_class = [
     }
 ];
 
-    data_bonusaction_fr_ulrik_class = [
+data_action_fr_ulrik_heroic = [
+    {
+        title: "Présence intimidante",
+        icon: "fanged-skull",
+        subtitle: "Effrayer un adversaire",
+        description: "",
+        reference: "Voie héroïque Coeur de dragon",
+        bullets: [ 
+            "Voir un Coeur de dragon est un spectacle effrayant sur le champ de bataille. Lorsque vous êtes engagé dans un combat, vous pouvez utiliser votre action pour effrayer quelqu'un par votre présence menaçante.",
+            "Choisissez une créature que vous pouvez voir à moins de 30 pieds de vous. Si la créature peut vous voir ou vous entendre, elle doit réussir un jet de sauvegarde de <b>Sagesse</b> (DC égal à 8 + votre bonus de compétence + votre modificateur de Charisme) ou avoir peur de vous jusqu'à la fin de votre prochain tour. Aux tours suivants, vous pouvez utiliser votre action pour prolonger la durée de cet effet sur la créature effrayée."
+        ]
+    }    
+];
+
+data_bonusaction_fr_ulrik_class = [
     {
         title: "Second souffle",
         icon: "strong",
@@ -47,6 +61,21 @@ data_action_fr_ulrik_class = [
             "Lorsque vous maniez un bouclier en combat, vous pouvez passer un <b>dé de supériorité</b> et utiliser votre action bonus pour faire une attaque avec votre main secondaire comme si vous vous battiez avec deux armes.",
             "Vous ajoutez au choix votre bonus de Force ou de Dextérité et le résultat du dé au jet de dégâts.",
             "Le bouclier est considéré comme une arme improvisée dans ce cas, et la base de dommage est donc un D4."
+        ]
+    }
+];
+
+data_bonusaction_fr_ulrik_heroic = [
+    {
+        title: "Rage",
+        icon: "muscle-up",
+        subtitle: "Se mettre en rage",
+        description: "",
+        reference: "Voie héroïque Coeur de dragon",
+        bullets: [
+            "Le Coeur de dragon est capable de libérer ses énergies dans un torrent de mort et de destruction. A votre tour, vous pouvez entrer en rage avec une action bonus.",
+            "Pendant que vous êtes en rage, vous bénéficiez des avantages suivants :<br><ul><li>Vous avez l'avantage sur les tests et les sauvegardes de force.</li><li>Lorsque vous effectuez une attaque avec une arme de mêlée en utilisant la Force, vous obtenez un bonus de +2 au jet de dégâts.</li><li>Vous gagnez un nombre de points de vie temporaires égal à votre niveau de personnage. Les points restants sont perdus à la fin de votre rage.</li></ul>",
+            "Si vous êtes capable de jeter des sorts, vous ne pouvez pas les lancer ou vous concentrer dessus en étant en rage.<br>Votre rage dure 1 minute. Elle se termine avant<ul><li> si vous êtes assommé</li><li>votre tour se termine et que vous n'avez pas attaqué une créature hostile depuis votre dernier tour ou subi de dégâts depuis lors.</li>"
         ]
     }
 ];
@@ -170,5 +199,16 @@ data_feature_fr_ulrik_class = [
             "Vous pouvez relancer un jet de sauvegarde que vous avez raté. Si vous le faites, vous devez utiliser le nouveau résultat, et vous ne pouvez pas utiliser à nouveau cette capacité avant d'avoir terminé un repos long.",
             "Vous pouvez utiliser cette capacité deux fois entre les repos longs."
         ]
-    }   
+    },
+    {
+        title: "Spécialiste des boucliers",
+        icon: "shield",
+        subtitle: "Se protéger avec son bouclier",
+        description: "",
+        reference: "Don Spécialiste des boucliers",
+        bullets: [ 
+            "Vous utilisez les boucliers non seulement pour vous protéger, mais aussi de manière offensive. Vous obtenez les avantages suivants lorsque vous portez un bouclier :            <ul><li>Si vous n'êtes pas incapable d'agir, vous pouvez ajouter le bonus à la CA de votre bouclier à tout jet de sauvegarde de Dextérité contre tout sort ou autre effet nocif qui vous prend pour cible.</li><li>Si vous êtes soumis à un effet qui vous permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, vous pouvez utiliser votre réaction pour ne prendre aucun dommage si vous réussissez le jet de sauvegarde, en interposant votre bouclier entre vous et la source de l'effet.</li></ul>"
+        ]
+    }    
 ];
+
