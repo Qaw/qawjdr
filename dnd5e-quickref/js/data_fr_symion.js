@@ -3,15 +3,14 @@ data_action_fr_symion_class = [
         title: "Maître de deux mondes",
         icon: "despair",
         subtitle: "Maitrise des esprits",
-        description: "Vous êtes doué de la capacité de commander le monde naturel et d'effrayer ce qui n'est pas naturel.",
+        description: "Vous êtes doué de la capacité d'effrayer ce qui n'est pas naturel.",
         reference: "Arcaniste Tradition Spiritualiste",
         bullets: [
             "Chaque créature affectée par votre maîtrise qui peut vous voir ou vous entendre à moins de 30 pieds de vous doit effectuer un jet de sauvegarde de DC : 8 + modificateur de sagesse + bonus de compétence",
-            "Si elle échoue, elle est affectée pour une durée égale à 1d4 tour + votre bonus de compétence ou jusqu'à ce qu'elle subisse des dommages.Il s'agit d'un effet magique similaire à un sort.",
+            "Si elle échoue, elle est affectée pour une durée égale à 1d4 tour + votre bonus de compétence ou jusqu'à ce qu'elle subisse des dommages. Il s'agit d'un effet magique similaire à un sort.",
             "Une créature effrayée doit passer son tour à essayer de s'éloigner le plus possible de vous, et elle ne peut pas se déplacer volontairement vers un espace situé à moins de 30 pieds de vous. Elle ne peut pas non plus réagir. <br> Pour son action, elle peut utiliser uniquement l'action Foncer ou essayer d'échapper à un effet qui l'empêche de se déplacer. <br> S'il n'y a nulle part où se déplacer, la créature peut utiliser l'action Esquive.",
-            "Une créature charmée est amicale envers vous et les autres créatures que vous désignez.",
             "Une créature dont le CR est supérieur à votre niveau de personnage ne peut pas être affectée et une créature qui est immunisée contre l'état d'effroi sera dans l'état 'incapable d'agir' à la place.",
-            "La Maîtrise des Esprits affecte les esprits qui possèdent une créature (comme les astirax) et les esprits incorporels et les morts-vivants (comme les fantômes). Ils sont effrayés s'ils échouent à une sauvegarde de Sagesse.",
+            "La Maîtrise des Esprits affecte les esprits qui prennent possession d'une autre créature (comme les astirax) et les esprits ou morts-vivants incorporels (comme les fantômes). Ils sont effrayés s'ils échouent à un jet de sauvegarde de Sagesse.",
             "Vous pouvez utiliser votre pouvoir deux fois entre les repos (courts ou longs)."
         ]
     },
