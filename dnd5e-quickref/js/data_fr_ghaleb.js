@@ -213,5 +213,17 @@ data_feature_fr_ghaleb_feat = [
         bullets: [ 
             "Vous avez appris à mettre toute votre puissance dans vos attaques, même avec de petites armes. Vous gagnez les avantages suivants quand vous combattez avec une arme de mêlée qui a la propriété <i>Finesse</i> et que vous maitrisez :<ul><li>Si vous faites un critique, vous pouvez lancer un dé de dégâts supplémentaire.</li><li>Avant de faire une attaque de mêlée, vous pouvez choisir une pénalité de -5 au jet d'attaque. Si l'attaque touche, vous ajoutez 2d6 de dommage.</li></ul>"
         ]
-    }            
+    },
+    {
+        title: "Guidé par une étoile",
+        icon: "star-swirl",
+        subtitle: "Convaincre son interlocuteur",
+        description: "",
+        reference: "Don mineur",
+        bullets: [ 
+            "Inspiré par l'un des Cavaliers Célestes, vous pouvez à votre tour subjuguer un auditoire par votre présence ou persuader un interlocuteur avec d'ingénieuses tournures de phrases.",
+            "Vous avez l'<b>Avantage</b> à n'importe quel jet basé sur le <b>Charisme</b>, auquel vous pouvez ajouter votre <b>Bonus de Compétence</b>, ou le double si celui-ci s'applique déjà au jet en question.",
+            "Vous devez terminer un <b>repos long</b> avant de pouvoir utiliser de nouveau cette aptitude."
+        ]
+    }        
 ];
