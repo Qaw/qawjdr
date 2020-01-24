@@ -6,7 +6,7 @@ data_environment_obscurance_fr = [
         description: "Une lumière faible, un brouillard irrégulier ou un feuillage clairsemé",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Les créatures ont un <b>désavantage aux jets de Sagesse (Perception)</b> qui dépendent de la vision."
+            "Les créatures ont un désavantage aux jets de <b>Sagesse (Perception)</b> qui dépendent de la vision."
         ]
     },
     {

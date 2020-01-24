@@ -3,14 +3,14 @@ data_action_fr = [
         title: "Attaquer [Attack]",
         icon: "crossed-swords",
         subtitle: "Attaque de mêlée ou à distance",
-        description: "L'action la plus commune que vous pouvez faire en combat est l'action Attaquer, que ce soit en virevoltant avec une épée, en décochant une flèche ou avec ses propres poings.",
+        description: "L'action la plus commune que vous pouvez faire en combat est l'action Attaquer, que ce soit en virevoltant avec une épée, en décochant une flèche ou avec vos propres poings.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Certaines capacités, comme l'<i>Attaque supplémentaire</i> du guerrier, permettent de réaliser plus d'une attaque avec cette action. Chacune de ces attaques est un jet séparé et peut cibler une créature différente. Vous pouvez vous déplacer entre ces attaques",
+            "Certaines capacités, comme l'<i>Attaque supplémentaire</i> du guerrier, permettent de réaliser plus d'une attaque avec cette action. Chacune de ces attaques est un jet séparé et peut cibler une créature différente. Vous pouvez vous déplacer entre ces attaques.",
             "Lorsque vous utilisez l'action Attaquer et que vous attaquez avec une arme de corps à corps légère que vous portez dans une main, vous pouvez utiliser une action bonus pour attaquer avec une autre arme de corps à corps légère que vous portez dans l'autre main.",
             "Vous pouvez remplacer une de vos attaques de mêlée avec une <i>Lutte</i> ou une <i>Bousculade</i>.",
-            "Certaines conditions donnent un avantage à l'attaque: les attaques contre des cibles aveuglées, paralysées, pétrifiées, entravés, assommées ou inconscientes; les attaques contre des cibles à terre; les attaques par des attaquants invisibles ou cachés.",
-            "Certaines conditions donnent un désavantage à l'attaque: les attaques contre des cibles invisibles ou cachées; les attaques à distance contre des cibles à terre; les attaques par des attaquants aveuglés, effrayés, empoisonnés ou entravés."
+            "Certaines conditions donnent un avantage à l'attaque : les attaques contre des cibles aveuglées, paralysées, pétrifiées, entravées, assommées ou inconscientes ; les attaques contre des cibles à terre; les attaques par des attaquants invisibles ou cachés.",
+            "Certaines conditions donnent un désavantage à l'attaque : les attaques contre des cibles invisibles ou cachées ; les attaques à distance contre des cibles à terre ; les attaques par des attaquants aveuglés, effrayés, empoisonnés ou entravés."
         ]
     },
     {
@@ -20,13 +20,12 @@ data_action_fr = [
         description: "Lancer un sort avec un temps d'incantation d'une action",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Vous ne pouvez pas lancer un sort avec votre action et un autre sort avec votre action bonus dans le même tour, sauf si l'action est utiliser pour lancer un sort mineur.",
-            "La cible d’un sort doit être dans la portée du sort.",
-            "Pour cibler quelque chose, vous devez avoir une ligne de vue dégagée.",
+            "Vous ne pouvez pas lancer un sort avec votre action et un autre sort avec votre action bonus dans le même tour, sauf si l'action est utilisée pour lancer un sort mineur.",
+            "La cible d’un sort doit être dans la portée du sort. Pour cibler quelque chose, vous devez avoir une ligne de vue dégagée.",
             "Les sorts avec des composants matériels ne consomment pas le composant sauf si c'est explicitement précisé.",
-            "A moins que le coût du matériel ne soit donné, vous pouvez assumer que le coût reste négligeable et que le composant est simplement disponible dans le sac à composants",
-            "Certains sorts requierent que vous mainteniez votre concentration pour garder la magie active. Si vous perdez la concentratin, le sort s'arrête.",
-            "Vous perdez la concentration du sort si vous lancez un autre sort qui requiert de la concentration ou si vous êtes incapacité. A chaque fois que vous prenez des dégêts, vous devez faire un jet de sauvegarde de Constitution pour maintenir votre concentration. Le DC est égal au maximum entre 10 et la moitiée des dégâts pris."
+            "A moins que le coût du matériel ne soit donné, vous pouvez assumer que le coût reste négligeable et que le composant est simplement disponible dans le sac à composants.",
+            "Certains sorts requièrent que vous mainteniez votre concentration pour garder la magie active. Si vous perdez votre concentration, le sort s'arrête.",
+            "Vous perdez la concentration du sort si vous lancez un autre sort qui requiert de la concentration ou si vous êtes <i>incapacité</i>. A chaque fois que vous prenez des dégâts, vous devez faire un jet de sauvegarde de <b>Constitution</b> pour maintenir votre concentration. Le DC est égal au maximum entre 10 et la moitiée des dégâts pris."
         ]
     },
     {
@@ -39,7 +38,7 @@ data_action_fr = [
             "Vous pouvez utiliser l'action <i>Attaquer</i> pour faire une attaque au corps à corps spéciale, une lutte.",
             "Si vous pouvez faire plusieurs attaques avec l'action Attaquer, cette action remplace l'une d'entre elles.",
             "La cible de votre lutte ne doit pas être plus d'une taille supérieure à la vôtre, et elle doit être à votre portée.",
-            "En utilisant au moins une main de libre, vous essayez d'attraper la cible en réalisant un jet de lutte, qui est en fait un jet de Force (Athlétisme) en opposition à un jet de Force (Athlétisme) ou de Dextérité (Acrobaties) de l'ennemi (au choix de celui-ci).",
+            "En utilisant au moins une main de libre, vous essayez d'attraper la cible en réalisant un jet de lutte, qui est en fait un jet de <b>Force (Athlétisme)</b> en opposition à un jet de <b>Force (Athlétisme)</b> ou de <b>Dextérité (Acrobaties)</b> de l'ennemi (au choix de celui-ci).",
             "Si vous réussissez, la cible est agrippée. Vous pouvez relâcher votre cible quand vous le voulez (cela ne nécessite pas d'action)."
         ]
     },
@@ -80,11 +79,11 @@ data_action_fr = [
         description: "Essayer de se cacher",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Vous ne pouvez pas vous cacher d'une créature qui peut vous voir clairement. Vous devez avoir une couverture totale, être dans une zone très sombre, être invisible, ou sinon que la vision de l'ennemi soit bloquée.",
+            "Vous ne pouvez pas vous cacher d'une créature qui peut vous voir clairement. Vous devez avoir une couverture totale, être dans une zone très sombre, être invisible, ou sinon il faut que la vision de l'ennemi soit bloquée.",
             "Vous révélez votre position si vous faites du bruit, comme crier ou renverser un vase.",
-            "Lorsque vous essayez de vous cacher, faites un jet de Dextérité (Discrétion). Tant que vous n'êtes pas découvert ou que vous n'arrêtez pas de vous cacher, le résultat de ce jet est celui qui sera pris en compte pour une opposition avec le jet de Sagesse (Perception) de toute créature qui recherche activement des signes de votre présence.",
-            "Une créature vous remarque même si elle ne vous cherche pas sauf si votre jet de Discrétion est supérieur à sa Perception Passive (10 + Modificateur de sagesse + Maîtrise éventuelle ; +5 si avantage, -5 si désavantage).",
-            "En dehors du combat, vous pouvez faire un jet de Dextérité (Discrétion) pour des actions comme se cacher des ennemis, éviter des gardes, s'éclipser sans être remarqué ou se faufiler sans être vu ou entendu."
+            "Lorsque vous essayez de vous cacher, faites un jet de <b>Dextérité (Discrétion)</b>. Tant que vous n'êtes pas découvert ou que vous n'arrêtez pas de vous cacher, le résultat de ce jet est celui qui sera pris en compte pour une opposition avec le jet de <b>Sagesse (Perception)</b> de toute créature qui recherche activement des signes de votre présence.",
+            "Une créature vous remarque même si elle ne vous cherche pas sauf si votre jet de Discrétion est supérieur à sa <b>Perception Passive (10 + Modificateur de sagesse + Maîtrise éventuelle ; +5 si avantage, -5 si désavantage).</b>",
+            "En dehors du combat, vous pouvez faire un jet de <b>Dextérité (Discrétion)</b> pour des actions comme se cacher des ennemis, éviter des gardes, s'éclipser sans être remarqué ou se faufiler sans être vu ou entendu."
         ]
     },
     {
@@ -120,12 +119,10 @@ data_action_fr = [
         description: "Bousculer une créature afin de la faire tomber à terre ou bien de la faire reculer.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Vous pouvez utiliser l'action <i>Attaquer</i> pour bousculer une créature",
-            "Si vous pouvez faire plusieurs attaques avec l'action Attaquer, cette action remplace l'une d'entre elles.",
+            "Vous pouvez utiliser l'action <i>Attaquer</i> pour bousculer une créature. <br>Si vous pouvez faire plusieurs attaques avec l'action Attaquer, cette action remplace l'une d'entre elles.",
             "La cible de cette action ne doit pas être plus d'une taille plus grande que vous et doit être à votre portée",
-            "Faites un jet de Force (Athlétisme) opposé à un jet de Force (Athlétisme) ou de Dextérité (Acrobaties) de la cible (au choix de celle-ci).",
-            "Si vous gagnez l'opposition, vous faites tomber à terre la cible ou bien la faites reculer de 1,50 mètre"
-
+            "Faites un jet de <b>Force (Athlétisme)</b> opposé à un jet de <b>Force (Athlétisme)</b> ou de <b>Dextérité (Acrobaties)</b> de la cible (au choix de celle-ci).",
+            "Si vous gagnez l'opposition, vous faites tomber à terre la cible ou bien la faites reculer de 1,50 mètres."
         ]
     },
     {
@@ -136,7 +133,7 @@ data_action_fr = [
         description: "Une créature agrippée peut utiliser son action pour s'échapper.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Pour cela, elle doit réussir un jet de Force (Athlétisme) ou de Dextérité (Acrobaties) en opposition à votre jet de Force (Athlétisme)."
+            "Pour cela, elle doit réussir un jet de <b>Force (Athlétisme)</b> ou de <b>Dextérité (Acrobaties)</b> en opposition à votre jet de <b>Force (Athlétisme)</b>."
         ]
     },
     {
@@ -170,7 +167,7 @@ data_action_fr = [
         description: "",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Selon la nature de la recherche, le MJ peut vous demander un jet de Sagesse (Perception) ou Intelligence (Investigation)."
+            "Selon la nature de la recherche, le MJ peut vous demander un jet de <b>Sagesse (Perception)</b> ou <b>Intelligence (Investigation)</b>."
         ]
     }
 ];

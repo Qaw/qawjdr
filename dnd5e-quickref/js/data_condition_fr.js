@@ -95,7 +95,7 @@ data_condition_fr = [
         subtitle: "Vous êtes paralysé",
         description: "Vous ne pouvez rien faire",
         bullets: [
-            "Une créature paralysée est incapable d'agir et ne peut plus bouger ni parler. ",
+            "Une créature paralysée est incapable d'agir et ne peut plus bouger ni parler.",
             "La créature rate automatiquement ses jets de sauvegarde de Force et de Dextérité.",
             "Les jets d'attaque contre la créature ont l'avantage.",
             " Toute attaque qui touche la créature est un coup critique si l'attaquant est à 1,50 mètre ou moins de la créature."
@@ -108,12 +108,11 @@ data_condition_fr = [
         description: "Vous êtes transformé, avec tous les objets non-magiques que vous portez, en substance inanimée solide (en général de la pierre)",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Une créature pétrifiée est transformée, ainsi que tout objet non magique qu'elle porte, en une substance inanimée solide (généralement en pierre). Son poids est multiplié par dix et son vieillissement cesse. ",
-            "La créature est incapable d'agir (voir la condition), ne peut plus bouger ni parler, et n'est plus consciente de ce qui se passe autour d'elle. ",
-            "Les jets d'attaque contre la créature ont l'avantage.",
-            "La créature rate automatiquement ses jets de sauvegarde de Force et de Dextérité.",
-            "La créature obtient la résistance contre tous les types de dégâts. ",
-            "La créature est immunisée contre le poison et la maladie, mais un poison ou une maladie déjà dans son organisme est seulement suspendu, pas neutralisé."
+            "Une créature pétrifiée est transformée, ainsi que tout objet non magique qu'elle porte, en une substance inanimée solide (généralement en pierre). Son poids est multiplié par dix et son vieillissement cesse.",
+            "La créature est incapable d'agir (voir la condition), ne peut plus bouger ni parler, et n'est plus consciente de ce qui se passe autour d'elle.",
+            "Les jets d'attaque contre la créature ont l'avantage. La créature rate automatiquement ses jets de sauvegarde de Force et de Dextérité.",
+            "La créature obtient la résistance contre tous les types de dégâts.",
+            "La créature est immunisée contre le poison et la maladie, mais un poison ou une maladie déjà présent dans son organisme est seulement suspendu, pas neutralisé."
         ]
     },
     {

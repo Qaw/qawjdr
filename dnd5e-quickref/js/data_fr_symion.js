@@ -1,6 +1,6 @@
 data_action_fr_symion_class = [
     {
-        title: "Maître de deux mondes",
+        title: "Maître des deux mondes",
         icon: "despair",
         subtitle: "Maitrise des esprits",
         description: "Vous êtes doué de la capacité d'effrayer ce qui n'est pas naturel.",
