@@ -169,5 +169,28 @@ data_feature_fr_ghaleb_class = [
             "Vous pouvez relancer un jet de sauvegarde que vous avez raté. Si vous le faites, vous devez utiliser le nouveau résultat, et vous ne pouvez pas utiliser à nouveau cette capacité avant d'avoir terminé un repos long.",
             "Vous pouvez utiliser cette capacité deux fois entre les repos longs."
         ]
-    }   
+    }          
+];
+
+data_feature_fr_ghaleb_feat = [
+    {
+        title: "Athlète",
+        icon: "journey",
+        subtitle: "Don",
+        description: "",
+        reference: "Don",
+        bullets: [ 
+            "<ul><li>Lorsque vous êtes à terre, vous relever prend seulement 1,50 mètre de votre mouvement</li><li>Escalader ne vous coûte pas de mouvement supplémentaire.</li><li>Vous pouvez faire un saut en longueur ou en hauteur avec seulement 1,50 mètre d'élan, au lieu de 3 mètres.</li></ul>"
+        ]
+    },
+    {
+        title: "Vigilant",
+        icon: "eyeball",
+        subtitle: "Don",
+        description: "",
+        reference: "Don",
+        bullets: [ 
+            "<ul><li>Vous ne pouvez pas être surpris tant que vous êtes conscient.</li><li>Les autres créatures n'ont pas l'avantage aux jets d'attaque contre vous du fait que vous ne les voyez pas.</li></ul>"
+        ]
+    }           
 ];
