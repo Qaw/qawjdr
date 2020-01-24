@@ -169,6 +169,17 @@ data_feature_fr_ghaleb_class = [
             "Vous pouvez relancer un jet de sauvegarde que vous avez raté. Si vous le faites, vous devez utiliser le nouveau résultat, et vous ne pouvez pas utiliser à nouveau cette capacité avant d'avoir terminé un repos long.",
             "Vous pouvez utiliser cette capacité deux fois entre les repos longs."
         ]
+    },
+    {
+        title: "Evasion",
+        icon: "dodge",
+        subtitle: "Esquiver un effet de zone",
+        description: "",
+        reference: "Danseur de Guerre Pellurien",
+        bullets: [ 
+            "Votre agilité instinctive vous permet d'esquiver certains effets de zone, comme le souffle d'un dragon bleu ou un sort de boule de feu.",
+            "Lorsque vous êtes soumis à un effet qui vous permet d'effectuer un jet de sauvegarde de dextérité pour ne subir que la moitié des dégâts, vous ne subissez aucun dégât si vous réussissez le jet de sauvegarde, et seulement la moitié des dégâts si vous échouez."
+        ]
     }          
 ];
 
@@ -176,7 +187,7 @@ data_feature_fr_ghaleb_feat = [
     {
         title: "Athlète",
         icon: "journey",
-        subtitle: "Don",
+        subtitle: "Don de mouvement",
         description: "",
         reference: "Don",
         bullets: [ 
@@ -186,11 +197,21 @@ data_feature_fr_ghaleb_feat = [
     {
         title: "Vigilant",
         icon: "eyeball",
-        subtitle: "Don",
+        subtitle: "Don de perception",
         description: "",
         reference: "Don",
         bullets: [ 
             "<ul><li>Vous ne pouvez pas être surpris tant que vous êtes conscient.</li><li>Les autres créatures n'ont pas l'avantage aux jets d'attaque contre vous du fait que vous ne les voyez pas.</li></ul>"
         ]
-    }           
+    },
+    {
+        title: "Enfoncer profondément",
+        icon: "curvy-knife",
+        subtitle: "Don de combat",
+        description: "",
+        reference: "Don",
+        bullets: [ 
+            "Vous avez appris à mettre toute votre puissance dans vos attaques, même avec de petites armes. Vous gagnez les avantages suivants quand vous combattez avec une arme de mêlée qui a la propriété <i>Finesse</i> et que vous maitrisez :<ul><li>Si vous faites un critique, vous pouvez lancer un dé de dégâts supplémentaire.</li><li>Avant de faire une attaque de mêlée, vous pouvez choisir une pénalité de -5 au jet d'attaque. Si l'attaque touche, vous ajoutez 2d6 de dommage.</li></ul>"
+        ]
+    }            
 ];
