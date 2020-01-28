@@ -166,7 +166,7 @@ data_feature_fr_ghaleb_class = [
         description: "",
         reference: "Guerrier",
         bullets: [ 
-            "Vous pouvez relancer un jet de sauvegarde que vous avez raté. Si vous le faites, vous devez utiliser le nouveau résultat, et vous ne pouvez pas utiliser à nouveau cette capacité avant d'avoir terminé un repos long.",
+            "Vous pouvez relancer un jet de sauvegarde que vous avez raté. Si vous le faites, vous devez utiliser le nouveau résultat.",
             "Vous pouvez utiliser cette capacité deux fois entre les repos longs."
         ]
     },
