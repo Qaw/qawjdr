@@ -196,8 +196,28 @@ data_feature_fr_ulrik_class = [
         description: "",
         reference: "Guerrier",
         bullets: [ 
-            "Vous pouvez relancer un jet de sauvegarde que vous avez raté. Si vous le faites, vous devez utiliser le nouveau résultat, et vous ne pouvez pas utiliser à nouveau cette capacité avant d'avoir terminé un repos long.",
+            "Vous pouvez relancer un jet de sauvegarde que vous avez raté. Si vous le faites, vous devez utiliser le nouveau résultat.",
             "Vous pouvez utiliser cette capacité deux fois entre les repos longs."
+        ]
+    },
+    {
+        title: "Connaître son ennemi",
+        icon: "frontal-lobe",
+        subtitle: "Obtenir des infos sur son ennemi",
+        description: "",
+        reference: "Maître de guerre",
+        bullets: [ 
+            "Si vous passez au moins 1 minute à observer ou à interagir avec une créature en n'étant pas engagé dans un combat, vous pouvez apprendre certaines informations à propos de ses capacités comparées aux vôtres.<br>Le MJ vous dit si la créature est égale, supérieure ou inférieure à vous par rapport à deux des caractéristiques suivantes de votre choix : <ul><li>Force</li><li>Dextérité</li><li>Constitution</li><li>Classe d'armure</li><li>Points de vie actuels</li><li>Total des niveaux de classe (le cas échéant)</li><li>Niveau de guerrier (le cas échéant)</li></ul>"
+        ]
+    },
+    {
+        title: "Implacable",
+        icon: "strong",
+        subtitle: "Regagner de la supériorité",
+        description: "",
+        reference: "Maître de guerre",
+        bullets: [ 
+            "si lorsque vous lancez votre jet d’initiative vous n’avez plus de dés de supériorité disponibles, vous en regagnez un."
         ]
     },
     {
@@ -207,8 +227,16 @@ data_feature_fr_ulrik_class = [
         description: "",
         reference: "Don Spécialiste des boucliers",
         bullets: [ 
-            "Vous utilisez les boucliers non seulement pour vous protéger, mais aussi de manière offensive. Vous obtenez les avantages suivants lorsque vous portez un bouclier :            <ul><li>Si vous n'êtes pas incapable d'agir, vous pouvez ajouter le bonus à la CA de votre bouclier à tout jet de sauvegarde de Dextérité contre tout sort ou autre effet nocif qui vous prend pour cible.</li><li>Si vous êtes soumis à un effet qui vous permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, vous pouvez utiliser votre réaction pour ne prendre aucun dommage si vous réussissez le jet de sauvegarde, en interposant votre bouclier entre vous et la source de l'effet.</li></ul>"
+            "Vous utilisez les boucliers non seulement pour vous protéger, mais aussi de manière offensive. Vous obtenez les avantages suivants lorsque vous portez un bouclier : <ul><li>Si vous n'êtes pas incapable d'agir, vous pouvez ajouter le bonus à la CA de votre bouclier à tout jet de sauvegarde de Dextérité contre tout sort ou autre effet nocif qui vous prend pour cible.</li><li>Si vous êtes soumis à un effet qui vous permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, vous pouvez utiliser votre réaction pour ne prendre aucun dommage si vous réussissez le jet de sauvegarde, en interposant votre bouclier entre vous et la source de l'effet.</li></ul>"
         ]
-    }    
+    }
 ];
 
+
+    
+    
+    
+    
+    
+    
+    
