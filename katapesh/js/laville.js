@@ -72,3 +72,33 @@ function NiceCustomAlert(){
 	}
 }
 var Alert = new NiceCustomAlert();
+
+function displayText(element)
+{
+    var idx=element.selectedIndex;
+    // var val=element.options[idx].value;
+    // var content=element.options[idx].innerHTML;
+    // alert( idx );
+    switch(idx) {
+        case 0:
+            window.open('shazathared/1.Double_Jeu.pdf', '_blank');
+            break;
+        case 1:
+            window.open('shazathared/2.Justice_est_faite_la_trahison_a_sa_reponse.pdf', '_blank');
+            break;
+        case 2:
+            window.open('shazathared/3.Hisser_le_drapeau_vert.pdf', '_blank');
+            break;
+        case 3:
+            window.open('shazathared/4.Pierres_precieuses.pdf', '_blank');
+            break;
+        case 4:
+            window.open('shazathared/5.Quand_les_sirenes_rient.pdf', '_blank');
+            break;
+        case 5:
+            window.open('shazathared/6.Le_Dieu_noye.pdf', '_blank');
+            break;
+        default:
+        // code block
+    }
+}
